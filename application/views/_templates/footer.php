@@ -13,7 +13,8 @@
 
     <!-- Jarallax -->
     <script src="https://unpkg.com/jarallax@1.10/dist/jarallax.min.js"></script>
-    
+    <script src="./application/assets/js/navbar.js"></script>
+
     <script>
         $(document).ready(function() {
             console.log($(".jarallax"));
