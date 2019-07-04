@@ -40,13 +40,22 @@
                     <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Challenge & Solutions</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="#">Features</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
+                    <a class="nav-link" href="#">Integration</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Disabled</a>
+                    <a class="nav-link" href="#">Benefits</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">FAQ's</a>
                 </li>
             </ul>
         </div>
