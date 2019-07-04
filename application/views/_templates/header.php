@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Auto Cloud Tech</title>
-    
+
     <!-- Bootstrap core CSS -->
     <link href="./application/assets/mdb/css/bootstrap.min.css" rel="stylesheet">
     
@@ -18,9 +18,8 @@
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-        
-    <!-- JQuery -->
-    <script src="./application/assets/js/jquery.min.js"></script>
+
+    
 </head>
 
 <body>
