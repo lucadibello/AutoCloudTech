@@ -11,6 +11,9 @@
     -webkit-transition: all .3s;
     transition: all .3s;
 }
+.about{
+    align-items: center;
+}
 .swiper-container {
     width: 80% !important;
     height: 60vh !important;
