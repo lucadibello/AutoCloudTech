@@ -7,7 +7,7 @@
                 <div class="container flex-center text-center">
                     <div class="row mt-5">
                         <div class="col-md-12 wow fadeIn mb-3">
-                            <h1 class="display-3 mb-2 wow fadeInDown" data-wow-delay="0.3s">Open<span class="deep-orange-text font-weight-bold">Cloud</span><span class="indigo-text font-weight-bold">Tech</span></h1>
+                            <h1 class="display-3 mb-2 wow fadeInDown font-weight-bold" data-wow-delay="0.3s">Auto<span class="red-text">Cloud</span><span class="indigo-text">Tech</span></h1>
                             <h5 class="text-uppercase mb-3 mt-1 font-weight-bold wow fadeIn" data-wow-delay="0.4s">Web developer & graphic designer</h5>
                             <a class="btn btn-light-blue btn-lg wow fadeIn" data-wow-delay="0.4s">portfolio</a> <a class="btn btn-indigo btn-lg wow fadeIn" data-wow-delay="0.4s">About me</a>
                         </div>
