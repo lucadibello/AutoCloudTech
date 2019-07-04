@@ -5,7 +5,7 @@ jQuery(document).ready(function ($) {
 
         if (scrollPos > 400) {
             navbar.addClass('warning-color');
-            document.getElementById("navigation").style.transition = "all 1s";
+            document.getElementById("navigation").style.transition = "all 0.7s";
         } else {
             navbar.removeClass('warning-color');
         }
