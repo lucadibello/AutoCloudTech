@@ -6,7 +6,7 @@
             <div class="container flex-center text-center">
                 <div class="row mt-5">
                     <div class="col-md-12 mb-3">
-                        <h1 class="display-3 mb-2 font-weight-bold animated fadeIn">Auto<span class="red-text">Cloud</span><span class="indigo-text">Tech</span></h1>
+                        <h1 class="title h1 my-3 font-weight-bold animated fadeIn">Auto<span class="red-text">Cloud</span><span class="indigo-text">Tech</span></h1>
                         <h5 class="text-uppercase mb-3 mt-1 font-weight-bold ">Web developer & graphic designer</h5>
                         <a class="btn btn-light-blue btn-lg ">portfolio</a> <a class="btn btn-indigo btn-lg">About me</a>
                     </div>
