@@ -27,7 +27,7 @@
 </head>
 
 <body>
-    <nav id="navigation" class="navbar navbar-expand-lg fixed-top text-white scrolling-navbar">
+    <nav id="navigation" class="navbar navbar-expand-lg fixed-top scrolling-navbar">
         <a class="navbar-brand" href="#">
             <img src="./application/assets/img/logo.jpg" height="30" alt="ACT logo">
         </a>
@@ -37,25 +37,25 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About Us</a>
+                    <a class="nav-link text-white" href="#">About Us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Challenge & Solutions</a>
+                    <a class="nav-link text-white" href="#">Challenge & Solutions</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link text-white" href="#">Features</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Integration</a>
+                    <a class="nav-link text-white" href="#">Integration</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Benefits</a>
+                    <a class="nav-link text-white" href="#">Benefits</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">FAQ's</a>
+                    <a class="nav-link text-white" href="#">FAQ's</a>
                 </li>
             </ul>
         </div>
