@@ -45,7 +45,7 @@
                     <!-- Col1 -->
                     <div class="col-md-4 col-sm-4 text-center">
                         <div class="feature-box">
-                            <span class="glyphicon glyphicon-cog icon"></span>
+                            <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
                             <h4>Great Support</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sapien augue, dictum et gravida et, viverra et est.</p>
                         </div>
