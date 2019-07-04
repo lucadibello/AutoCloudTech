@@ -3,10 +3,10 @@ jQuery(document).ready(function($) {
         var scrollPos = $(window).scrollTop();
         var navbar = $('.navbar');
   
-      if (scrollPos > 300) {
-        navbar.addClass('dark-bg');
+      if (scrollPos > 400) {
+        navbar.addClass('info-color');
       } else {
-        navbar.removeClass('dark-bg');
+        navbar.removeClass('info-color');
       }
     });
   });

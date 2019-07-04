@@ -6,14 +6,8 @@
     "Panna": #CAFAFE
 */
 .navbar {
-    background-color: transparent !important;
+    background-color: transparent;
     -webkit-transition: all .3s;
     transition: all .3s;
-}
-.navbar.alt-color {
-    background-color: #141615 !important;
-}
-.dark-bg{
-    background-color: #141615;
 }
   
