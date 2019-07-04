@@ -28,7 +28,11 @@
             </div>
 
             <div class="col-md-6 text-center">
-                <p align="center">DISAGIO</p>
+                <div class="align-middle">
+                    <h3>Complete ERP System</h3>
+                    <h3>e-Commerce Website</h3>
+                    <h3>TecCom Enabled</h3>
+                </div>
             </div>
             <!--Grid column-->
         </div>

@@ -12,10 +12,9 @@
     transition: all .3s;
 }
 .swiper-container {
-    width: 100% !important;
-    height: 80vh !important;
+    width: 80% !important;
+    height: 60vh !important;
 }
-
 .swiper-slide {
     background-position: center !important;
     background-size: cover !important;
