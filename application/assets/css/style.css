@@ -11,6 +11,9 @@
     -webkit-transition: all .3s;
     transition: all .3s;
 }
+.rosso{
+    background-color: #FC4445 !important;
+}
 .swiper-container {
     width: 80%;
     height: 500px;
