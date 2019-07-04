@@ -5,37 +5,15 @@
     Viola blando: #97CAEF
     "Panna": #CAFAFE
 */
-.nav-container {
-    height: 58px;
-    width: 100%;
-    position: fixed;
-    color: white;
-    text-transform: uppercase;
-    letter-spacing: 0.025em;
-    transition: background-color 0.2s linear;
+.navbar {
+    background-color: transparent !important;
+    -webkit-transition: all .3s;
+    transition: all .3s;
 }
-.solid-nav{
-    background-color: #aaa;
-    transition: background-color 0.2s linear;
+.navbar.alt-color {
+    background-color: #141615 !important;
 }
-    
-.nav-row {
-    max-width: 1200px;
-    width: 100%;
-    margin: 0 auto;
-    padding-right: 25px;
-    padding-left: 25px;
-    padding-top: 18px;
-}
-.nav-logo {
-    display: inline-block;
-    font-weight: 900;
-}
-      
-.nav-controls {
-    float: right;
-}
-a {
-    padding-left: 20px;
+.dark-bg{
+    background-color: #141615;
 }
   

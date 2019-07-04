@@ -1,15 +1,12 @@
-$(document).ready(function() {
-
+jQuery(document).ready(function($) {
     $(window).scroll(function() {
-
-        var height = $('.first-container').height();
-        var scrollTop = $(window).scrollTop();
-
-        if (scrollTop >= height - 40) {
-            $('.nav-container').addClass('solid-nav');
-        } else {
-            $('.nav-container').removeClass('solid-nav');
-        }
-
+        var scrollPos = $(window).scrollTop();
+        var navbar = $('.navbar');
+  
+      if (scrollPos > 300) {
+        navbar.addClass('dark-bg');
+      } else {
+        navbar.removeClass('dark-bg');
+      }
     });
-});
+  });
