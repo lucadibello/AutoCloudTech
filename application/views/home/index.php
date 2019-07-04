@@ -1,7 +1,7 @@
 <!-- Main layout -->
 <main>
     <div class="view jarallax" style="height: 100vh;">
-        <img class="jarallax-img" src="https://mdbootstrap.com/img/Photos/Others/img%20%2844%29.jpg" alt="">
+        <img class="jarallax-img" src="https://images.unsplash.com/photo-1517190382598-c640925961b3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1476&q=80" alt="">
         <div class="mask rgba-blue-slight">
             <div class="container flex-center text-center">
                 <div class="row mt-5">
