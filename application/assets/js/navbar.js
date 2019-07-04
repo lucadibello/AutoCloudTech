@@ -4,9 +4,9 @@ jQuery(document).ready(function($) {
         var navbar = $('.navbar');
   
       if (scrollPos > 400) {
-        navbar.addClass('info-color');
+        navbar.addClass('default-color');
       } else {
-        navbar.removeClass('info-color');
+        navbar.removeClass('default-color');
       }
     });
   });
