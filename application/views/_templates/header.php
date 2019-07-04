@@ -16,6 +16,9 @@
     <!-- Personal style file -->
     <link href="./application/assets/mdb/css/style.css" rel="stylesheet">
 
+    <!-- Animate CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css" rel="stylesheet">
+
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
 
