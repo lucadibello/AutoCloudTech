@@ -11,13 +11,16 @@
     -webkit-transition: all .3s;
     transition: all .3s;
 }
-.rosso{
-    background-color: #FC4445 !important;
+
+.footer-red {
+    background-color: #FC4445;
 }
+
 .swiper-container {
     width: 80%;
     height: 500px;
 }
+
 .swiper-slide {
     background-position: center;
     background-size: cover;
@@ -29,13 +32,13 @@
     transition: all 2s;
 }
 
-.swiper-slide img{
+.swiper-slide img {
     height: 20vh;
 }
 
-.warning-color{
+.warning-color {
     -webkit-transition: all 2s;
     -moz-transition: all 2s;
     -o-transition: all 2s;
-    transition: all 2s; 
+    transition: all 2s;
 }
