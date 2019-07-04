@@ -11,8 +11,8 @@
     -webkit-transition: all .3s;
     transition: all .3s;
 }
-.about{
-    align-items: center;
+.rosso{
+    background-color: #FC4445 !important;
 }
 .swiper-container {
     width: 80% !important;

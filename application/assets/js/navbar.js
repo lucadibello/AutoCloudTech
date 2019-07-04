@@ -4,12 +4,11 @@ jQuery(document).ready(function ($) {
         var navbar = $('#navigation');
 
         if (scrollPos > 400) {
-            navbar.addClass('warning-color');
-            $('.nav-link').addClass('text-white');
+            navbar.addClass('text-white');
+            document.getElementById('navigation').style.backgroundColor = "#FC4445";
             document.getElementById("navigation").style.transition = "all 0.7s";
         } else {
-            navbar.removeClass('warning-color');
-            $('.nav-link').removeClass('text-white');
+            document.getElementById('navigation').style.backgroundColor = "transparent";
         }
     });
 });
