@@ -11,3 +11,15 @@
     -webkit-transition: all .3s;
     transition: all .3s;
 }
+
+.swiper-container {
+    width: 100% !important;
+    height: 80vh !important;
+}
+
+.swiper-slide {
+    background-position: center !important;
+    background-size: cover !important;
+    width: 300px !important;
+    height: 300px !important;
+}

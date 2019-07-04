@@ -47,13 +47,13 @@
 
     <!-- Copyright -->
     <div class="footer-copyright text-center py-3">© 2018 Copyright:
-        <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
+        <a href="https://mdbootstrap.com/education/bootstrap/"> OpenCloudTech</a>
     </div>
     <!-- Copyright -->
 
 </footer>
 <!-- Footer -->
-<!--            SCRIPTS                     -->
+
 <!-- JQuery -->
 <script type="text/javascript" src="./application/assets/mdb/js/jquery-3.4.1.min.js"></script>
 
@@ -68,15 +68,46 @@
 
 <!-- Jarallax -->
 <script src="https://unpkg.com/jarallax@1.10/dist/jarallax.min.js"></script>
+
+<!-- Navbar js script -->
 <script src="./application/assets/js/navbar.js"></script>
+
+<!-- Swiper Js library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
 
 <script>
     $(document).ready(function() {
         console.log($(".jarallax"));
 
+        //initialize parallax background
         $(".jarallax").jarallax({
             speed: 0.2,
         });
+
+        //initialize swiper when document ready
+        var swiper = new Swiper($(".swiper-container"), {
+            effect: 'coverflow',
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+
+        // Initialize slider
+        swiper.init();
     });
 </script>
 
