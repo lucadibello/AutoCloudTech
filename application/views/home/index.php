@@ -5,10 +5,9 @@
         <div class="mask rgba-blue-slight">
             <div class="container flex-center text-center">
                 <div class="row mt-5">
-                    <div class="col-md-12 mb-3">
-                        <h1 class="title h1 my-3 font-weight-bold animated fadeIn">Auto<span class="red-text">Cloud</span><span class="indigo-text">Tech</span></h1>
+                    <div class="col-md-12 mb-3 animated slideInDown">
+                        <h1 class="title h1 my-3 font-weight-bold">Auto<span class="red-text">Cloud</span><span class="indigo-text">Tech</span></h1>
                         <h5 class="text-uppercase mb-3 mt-1 font-weight-bold ">Web developer & graphic designer</h5>
-                        <a class="btn btn-light-blue btn-lg ">portfolio</a> <a class="btn btn-indigo btn-lg">About me</a>
                     </div>
                 </div>
             </div>
@@ -124,16 +123,16 @@
     </div>
     <!-- Swiper -->
 
-    <div class="swiper-container">
+    <div class="swiper-container" style="height:500px;">
         <div class="swiper-wrapper">
-            <div class="swiper-slide" style="background-image:url(./application/assets/img/slideshow/1.jpg)"></div>
-            <div class="swiper-slide" style="background-image:url(./application/assets/img/slideshow/2.jpg)"></div>
-            <div class="swiper-slide" style="background-image:url(./application/assets/img/slideshow/3.jpg)"></div>
-            <div class="swiper-slide" style="background-image:url(./application/assets/img/slideshow/4.jpg)"></div>
-            <div class="swiper-slide" style="background-image:url(./application/assets/img/slideshow/5.jpg)"></div>
-            <div class="swiper-slide" style="background-image:url(./application/assets/img/slideshow/6.jpg)"></div>
-            <div class="swiper-slide" style="background-image:url(./application/assets/img/slideshow/7.jpg)"></div>
-            <div class="swiper-slide" style="background-image:url(./application/assets/img/slideshow/8.jpg)"></div>
+            <div class="swiper-slide"><img class="img-fluid" src="./application/assets/img/slideshow/1.jpg"></div>
+            <div class="swiper-slide"><img class="img-fluid" src="./application/assets/img/slideshow/2.jpg"></div>
+            <div class="swiper-slide"><img class="img-fluid" src="./application/assets/img/slideshow/4.jpg"></div>
+            <div class="swiper-slide"><img class="img-fluid" src="./application/assets/img/slideshow/3.jpg"></div>
+            <div class="swiper-slide"><img class="img-fluid" src="./application/assets/img/slideshow/5.jpg"></div>
+            <div class="swiper-slide"><img class="img-fluid" src="./application/assets/img/slideshow/6.jpg"></div>
+            <div class="swiper-slide"><img class="img-fluid" src="./application/assets/img/slideshow/7.jpg"></div>
+            <div class="swiper-slide"><img class="img-fluid" src="./application/assets/img/slideshow/8.jpg"></div>
         </div>
         <!-- Add Pagination -->
         <div class="swiper-pagination"></div>
