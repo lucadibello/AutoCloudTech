@@ -29,30 +29,30 @@
                     <div class="row">
                         <div class="col-4">
                             <div class="list-group" id="list-tab" role="tablist">
-                                <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-integration" role="tab" aria-controls="home">Software Integration</a>
-                                <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-data" role="tab" aria-controls="profile">Data Migration</a>
-                                <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-customisation" role="tab" aria-controls="messages">Customisation</a>
-                                <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-operational" role="tab" aria-controls="settings">Operational</a>
+                                <a class="list-group-item list-group-item-action active" id="list-integration-list" data-toggle="list" href="#list-integration" role="tab" aria-controls="home">Software Integration</a>
+                                <a class="list-group-item list-group-item-action" id="list-data-list" data-toggle="list" href="#list-data" role="tab" aria-controls="profile">Data Migration</a>
+                                <a class="list-group-item list-group-item-action" id="list-customisation-list" data-toggle="list" href="#list-customisation" role="tab" aria-controls="messages">Customisation</a>
+                                <a class="list-group-item list-group-item-action" id="list-operational-list" data-toggle="list" href="#list-operational" role="tab" aria-controls="settings">Operational</a>
                             </div>
                         </div>
                         <div class="col-8">
                             <div class="tab-content" id="nav-tabContent">
-                                <div class="tab-pane fade show active" id="list-integration" role="tabpanel" aria-labelledby="list-home-list">
+                                <div class="tab-pane fade show active" id="list-integration" role="tabpanel" aria-labelledby="list-integration-list">
                                     The first phase is to integrate our system into the customers' existing infrastructure.
                                     On average this will take six weeks to complete for a two-person team working two days per week.
                                     The integration process will be led by our CTO and supported by our development team based in Ireland.
                                     Being a cloud-based system integration is made easier by our Irish based team having full access to the system at all times.
 
                                 </div>
-                                <div class="tab-pane fade" id="list-data" role="tabpanel" aria-labelledby="list-profile-list">
+                                <div class="tab-pane fade" id="list-data" role="tabpanel" aria-labelledby="list-data-list">
                                     In all cases there will be a data migration effort required to export data from current system the client is operating.
                                     This will vary from client to client.
                                 </div>
-                                <div class="tab-pane fade" id="list-customisation" role="tabpanel" aria-labelledby="list-messages-list">
+                                <div class="tab-pane fade" id="list-customisation" role="tabpanel" aria-labelledby="list-customisation-list">
                                     In some cases, customisation will be required.
                                     This can be priced on an hourly rate or as a fixed price if the requirements are known and ACT have built a similar module for a previous customer.
                                 </div>
-                                <div class="tab-pane fade" id="list-operational" role="tabpanel" aria-labelledby="list-settings-list">
+                                <div class="tab-pane fade" id="list-operational" role="tabpanel" aria-labelledby="list-operational-list">
                                     Once the system is built we will train the users onsite and move into a fully operational mode.
                                     We will also provide services to all of our customers using our support staff in Ireland e.g. Digital Marketing
                                 </div>
