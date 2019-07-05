@@ -21,7 +21,25 @@
     max-width: 150%;
 }
 
-.title-red-text {
+.pulse-hover:hover{
+    transform: scale(1.4);
+    transition: all ease 1000ms;
+}
+
+.pulse-hover{
+    transition: all ease 700ms;
+}
+
+#header-logo{
+    max-width: 150%;
+}
+
+#header-arrow{
+    color: #97CAEF;
+    font-size: 4em;
+}
+
+.title-red-text{
     color: #FC4445;
 }
 
