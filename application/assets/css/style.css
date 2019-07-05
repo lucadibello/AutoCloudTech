@@ -56,18 +56,10 @@
     transition: all 2s;
 }
 
-#moreSystem {
-    display: none;
-}
-
-#moreChallenge {
-    display: none;
-}
-
-#moreSiteBuilding {
-    display: none;
-}
-
-#moreDisruption {
+#moreSystem,
+#moreChallenge,
+#moreSiteBuilding,
+#moreDisruption,
+#moreTier {
     display: none;
 }
