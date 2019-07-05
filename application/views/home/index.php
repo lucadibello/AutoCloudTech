@@ -123,7 +123,7 @@
     </div>
     <!-- Swiper -->
 
-    <div class="swiper-container" style="height:500px;">
+    <div class="swiper-container" style="height:auto; text-align:center;">
         <div class="swiper-wrapper">
             <div class="swiper-slide"><img class="img-fluid" src="./application/assets/img/slideshow/1.jpg"></div>
             <div class="swiper-slide"><img class="img-fluid" src="./application/assets/img/slideshow/2.jpg"></div>
@@ -135,11 +135,13 @@
             <div class="swiper-slide"><img class="img-fluid" src="./application/assets/img/slideshow/8.jpg"></div>
         </div>
         <!-- Add Pagination -->
+        <!--
         <div class="swiper-pagination"></div>
+        -->
         <!-- If we need navigation buttons -->
+
         <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div>
     </div>
-
 </main>
 <!-- Main layout -->

@@ -89,12 +89,11 @@
             effect: 'coverflow',
             grabCursor: true,
             centeredSlides: true,
-            slidesPerView: 2,
+            slidesPerView: "auto",
             resizeReInit: true,
             autoHeight: true,
             spaceBetween: 100,
             loop: true,
-            centeredSlides: true,
             autoplay: {
                 delay: 2500,
                 disableOnInteraction: false,
@@ -104,7 +103,7 @@
                 stretch: 0,
                 depth: 300,
                 modifier: 1,
-                slideShadows: true,
+                slideShadows: false,
             },
             pagination: {
                 el: '.swiper-pagination',
