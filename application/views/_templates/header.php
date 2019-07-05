@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
 
     <!-- Personal style file -->
-    <link href="./application/assets/mdb/css/style.css" rel="stylesheet">
+    <link href="./application/assets/css/style.css" rel="stylesheet">
 </head>
 
 <body>
