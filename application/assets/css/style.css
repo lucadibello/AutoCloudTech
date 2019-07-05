@@ -12,20 +12,20 @@
     transition: all .3s;
 }
 
-.title-blue-text{
+.title-blue-text {
     color: #55BCC9;
 }
 
-#header-logo{
+#header-logo {
     width: 1000px;
     max-width: 150%;
 }
 
-.title-red-text{
+.title-red-text {
     color: #FC4445;
 }
 
-footer{
+footer {
     background-color: #FC4445;
 }
 
@@ -42,7 +42,6 @@ footer{
 
 .swiper-slide {
     text-align: center;
-
     display: -webkit-box;
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -70,4 +69,11 @@ footer{
 #moreDisruption,
 #moreTier {
     display: none;
+}
+
+@media only screen and (max-width: 400px) {
+    .list-group-item {
+        font-size: 0.7em;
+        padding-left: 0.5em;
+    }
 }
