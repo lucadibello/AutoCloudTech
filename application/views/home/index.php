@@ -5,14 +5,14 @@
         <div class="mask rgba-blue-slight">
             <div class="container flex-center text-center">
                 <div class="row mt-5">
-                    <div class="col-md-12 mb-3 animated slideInDown">
-                        <!--
-                            <h1 class="title h1 my-3 font-weight-bold">Auto<span class="red-text">Cloud</span><span class="indigo-text">Tech</span></h1>
-                            <h1 class="header h1-responsive my-3 font-weight-bolder">AutoCloudTech</h1>
-                        -->
-                        <img class="img-fluid" id="header-logo" alt="AutoCloudTech" src="./application/assets/img/logo.jpg">
-                        <br>
-                        <a class="mb-3 mt-1 font-weight-bold black-text" data-scroll href="#products"><i style="font-size:150px" class="fa fa-arrow-down" aria-hidden="true"></i></a>
+                    <div class="col-md-12 mb-3">
+                        <img class="img-fluid animated slideInDown" id="header-logo" alt="AutoCloudTech" src="./application/assets/img/logo.jpg">
+                        <br><br>
+                        <div class="pulse-hover" id="header-arrow">
+                            <a class="black-text mb-3 mt-1 font-weight-bold" data-scroll href="#products">
+                                <i class="fa fa-arrow-down" aria-hidden="true"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -43,22 +43,20 @@
             <div class="row col-12">
                 <div class="col-sm-6 text-center">
                     <h2 class="h1 font-weight-bold title-blue-text my-5 py-4">MotorFactor Software</h2>
+
+                    <div class="col-sm-6 text-center">
+                        <p align="center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sapien augue, dictum et gravida et, viverra et est.</p>
+                        <a class="btn btn-blue btn-lg ">Continue reading...</a>
+                    </div>
                 </div>
 
                 <div class="col-sm-6 text-center">
                     <h2 class="h1 font-weight-bold title-red-text my-5 py-4">Garage & Tyre Centre Software</h2>
-                </div>
-            </div>
 
-            <div class="row col-12">
-                <div class="col-sm-6 text-center">
-                    <p align="center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sapien augue, dictum et gravida et, viverra et est.</p>
-                    <a class="btn btn-blue btn-lg ">Continue reading...</a>
-                </div>
-
-                <div class="col-sm-6 text-center">
-                    <p align="center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sapien augue, dictum et gravida et, viverra et est.</p>
-                    <a class="btn btn-blue btn-lg ">Continue reading...</a>
+                    <div class="col-sm-6 text-center">
+                        <p align="center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sapien augue, dictum et gravida et, viverra et est.</p>
+                        <a class="btn btn-blue btn-lg ">Continue reading...</a>
+                    </div>
                 </div>
             </div>
         </section>
