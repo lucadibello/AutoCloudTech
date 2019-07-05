@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <div class="view jarallax" style="height: 100vh;">
+    <div class="view jarallax" style="height: 60vh;">
         <img class="jarallax-img" src="https://images.unsplash.com/photo-1502747812021-0ae746b6c23f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="">
         <div class="mask rgba-blue-slight">
             <div class="container flex-center text-center">
