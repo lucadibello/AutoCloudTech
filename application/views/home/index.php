@@ -52,7 +52,7 @@
                             <h4>Great Support</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sapien augue, dictum et gravida et, viverra et est.</p>
                         </div>
-                    </div> 
+                    </div>
 
                     <!-- Col2 -->
                     <div class="col-md-4 col-sm-4 text-center">
@@ -82,7 +82,7 @@
                             <h4>Great Support</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sapien augue, dictum et gravida et, viverra et est.</p>
                         </div>
-                    </div> 
+                    </div>
 
                     <!-- Col2 -->
                     <div class="col-md-4 col-sm-4 text-center">
@@ -121,11 +121,12 @@
             </div>
         </div>
     </div>
-    <!-- Swiper -->
 
-    <div class="swiper-container" style="">
-        <div class="swiper-wrapper">
-            <!--
+    <!-- Swiper -->
+    <div class="text-center">
+        <h1 class="h1 font-weight-bold light-blue-text my-5 py-4">Scroll and read</h1>
+        <div class="swiper-container" style="">
+            <div class="swiper-wrapper">
                 <div class="swiper-slide"><img class="img-fluid" src="./application/assets/img/slideshow/1.jpg"></div>
                 <div class="swiper-slide"><img class="img-fluid" src="./application/assets/img/slideshow/2.jpg"></div>
                 <div class="swiper-slide"><img class="img-fluid" src="./application/assets/img/slideshow/4.jpg"></div>
@@ -134,25 +135,11 @@
                 <div class="swiper-slide"><img class="img-fluid" src="./application/assets/img/slideshow/6.jpg"></div>
                 <div class="swiper-slide"><img class="img-fluid" src="./application/assets/img/slideshow/7.jpg"></div>
                 <div class="swiper-slide"><img class="img-fluid" src="./application/assets/img/slideshow/8.jpg"></div>
-            -->
-
-            <div class="swiper-slide" style="background-image: url(./application/assets/img/slideshow/1.jpg);"></div>
-            <div class="swiper-slide" style="background-image: url(./application/assets/img/slideshow/2.jpg);"></div>
-            <div class="swiper-slide" style="background-image: url(./application/assets/img/slideshow/3.jpg);"></div>
-            <div class="swiper-slide" style="background-image: url(./application/assets/img/slideshow/4.jpg);"></div>
-            <div class="swiper-slide" style="background-image: url(./application/assets/img/slideshow/5.jpg);"></div>
-            <div class="swiper-slide" style="background-image: url(./application/assets/img/slideshow/6.jpg);"></div>
-            <div class="swiper-slide" style="background-image: url(./application/assets/img/slideshow/7.jpg);"></div>
-            <div class="swiper-slide" style="background-image: url(./application/assets/img/slideshow/8.jpg);"></div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
         </div>
-        <!-- Add Pagination -->
-        <!--
-        <div class="swiper-pagination"></div>
-        -->
-        <!-- If we need navigation buttons -->
-
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
     </div>
+    <br>
 </main>
 <!-- Main layout -->

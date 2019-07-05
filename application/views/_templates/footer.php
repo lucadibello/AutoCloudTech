@@ -89,31 +89,13 @@
 
         //initialize swiper when document ready
         var swiper = new Swiper($(".swiper-container"), {
-            effect: 'coverflow',
-            grabCursor: true,
-            centeredSlides: true,
-            slidesPerView: "auto",
-            resizeReInit: true,
-            autoHeight: true,
-            loop: true,
-            slidesPerGroup: 1,
-            autoplay: {
-                delay: 2500,
-                disableOnInteraction: false,
-            },
-            coverflowEffect: {
-                rotate: 55,
-                stretch: 0,
-                depth: 200,
-                modifier: 0.5,
-                slideShadows: true,
-            },
+            direction: 'vertical',
+            slidesPerView: 1,
+            spaceBetween: 100,
+            mousewheel: true,
             pagination: {
                 el: '.swiper-pagination',
-            },
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
+                clickable: true,
             },
         });
 
