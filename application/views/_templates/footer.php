@@ -72,6 +72,9 @@
 <!-- Navbar js script -->
 <script src="./application/assets/js/navbar.js"></script>
 
+<!-- More text js script -->
+<script src="./application/assets/js/more.js"></script>
+
 <!-- Swiper Js library -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
 
