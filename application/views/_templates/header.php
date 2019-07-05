@@ -40,7 +40,7 @@
                     <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="#">About Us</a>
+                    <a class="nav-link text-white" href="./application/controller/about.php">About Us</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-white" href="#">Challenge & Solutions</a>
