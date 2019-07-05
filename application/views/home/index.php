@@ -7,7 +7,7 @@
                 <div class="row mt-5">
                     <div class="col-md-12 mb-3 animated slideInDown">
                         <h1 class="title h1 my-3 font-weight-bold">Auto<span class="red-text">Cloud</span><span class="indigo-text">Tech</span></h1>
-                        <h5 class="text-uppercase mb-3 mt-1 font-weight-bold ">Web developer & graphic designer</h5>
+                        <a class="text-uppercase mb-3 mt-1 font-weight-bold" data-scroll href="#products">View products</a>
                     </div>
                 </div>
             </div>
@@ -15,27 +15,48 @@
     </div>
 
     <div class="container">
-        <!--Grid row-->
-        <div class="row mb-5 pb-4">
+        <!--
+            <div class="row mb-5 pb-4">
+                <div class="col-md-6 text-center">
+                    <h2 class="h1 font-weight-bold light-blue-text my-5 py-4">About us</h2>
+                    <p align="justify">Auto Cloud Tech supplies it's SaaS based ERP system to tier 3 Auto Factors (1 to 20 branches) in the Irish and UK automotive aftermarket. The technology was developed in close collaboration with a Cork based auto factor, Premier Auto Parts who currently use it as the primary ERP system in their multiple stores.</p>
 
-            <!--Grid column-->
-            <div class="col-md-6 text-center">
-                <h2 class="h1 font-weight-bold light-blue-text my-5 py-4">About us</h2>
-                <p align="justify">Auto Cloud Tech supplies it's SaaS based ERP system to tier 3 Auto Factors (1 to 20 branches) in the Irish and UK automotive aftermarket. The technology was developed in close collaboration with a Cork based auto factor, Premier Auto Parts who currently use it as the primary ERP system in their multiple stores.</p>
+                    <a class="btn btn-blue btn-lg ">Continue reading...</a>
+                </div>
 
-                <a class="btn btn-blue btn-lg ">Continue reading...</a>
-            </div>
-
-            <div class="col-md-6 text-center">
-                <div class="align-middle">
-                    <h3>Complete ERP System</h3>
-                    <h3>e-Commerce Website</h3>
-                    <h3>TecCom Enabled</h3>
+                <div class="col-md-6 text-center" id="extSlogan">
+                    <div id="slogan">
+                        <h3>Complete ERP System</h3>
+                        <h3>e-Commerce Website</h3>
+                        <h3>TecCom Enabled</h3>
+                    </div>
                 </div>
             </div>
-            <!--Grid column-->
-        </div>
-        <!--Grid row-->
+        -->
+
+        <section id="products">
+            <div class="row col-12">
+                <div class="col-sm-6 text-center">
+                    <h2 class="h1 font-weight-bold title-blue-text my-5 py-4">MotorFactor Software</h2>
+                </div>
+
+                <div class="col-sm-6 text-center">
+                    <h2 class="h1 font-weight-bold title-red-text my-5 py-4">Garage & Tyre Centre Software</h2>
+                </div>
+            </div>
+
+            <div class="row col-12">
+                <div class="col-sm-6 text-center">
+                    <p align="center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sapien augue, dictum et gravida et, viverra et est.</p>
+                    <a class="btn btn-blue btn-lg ">Continue reading...</a>
+                </div>
+
+                <div class="col-sm-6 text-center">
+                    <p align="center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sapien augue, dictum et gravida et, viverra et est.</p>
+                    <a class="btn btn-blue btn-lg ">Continue reading...</a>
+                </div>
+            </div>
+        </section>
 
         <!--Grid row-->
         <div class="row mb-5 pb-4">
@@ -123,7 +144,7 @@
     </div>
 
     <!-- Swiper -->
-    <div class="text-center">
+    <div class="text-center" style="background-color: #CAFAFE; padding: 10px;">
         <h1 class="h1 font-weight-bold light-blue-text my-5 py-4">Scroll and read</h1>
         <div class="swiper-container" style="">
             <div class="swiper-wrapper">
@@ -140,6 +161,5 @@
             <div class="swiper-pagination"></div>
         </div>
     </div>
-    <br>
 </main>
 <!-- Main layout -->

@@ -1,5 +1,5 @@
 <!-- Footer -->
-<footer class="page-footer font-small cyan darken-3">
+<footer class="page-footer font-small darken-3">
 
     <!-- Footer Elements -->
     <div class="container">
@@ -78,6 +78,9 @@
 <!-- Swiper Js library -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
 
+<!-- Smooth scroll library -->
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0/dist/smooth-scroll.polyfills.min.js"></script>
+
 <script>
     $(document).ready(function() {
         console.log($(".jarallax"));
@@ -85,6 +88,11 @@
         //initialize parallax background
         $(".jarallax").jarallax({
             speed: 0.2,
+        });
+        
+        //Initialize smooth scroll
+        var scroll = new SmoothScroll('a[href*="#"]', {
+            speed: 300
         });
 
         //initialize swiper when document ready
