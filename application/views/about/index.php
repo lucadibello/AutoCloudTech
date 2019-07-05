@@ -25,15 +25,27 @@
         <div class="row">
             <div class="col-md-12">
                 <section class="my-5">
-                    <h2 class="h1-responsive font-weight-bold text-center my-5">Our System?</h2>
+                    <h2 class="h1-responsive font-weight-bold text-center my-5">Our System</h2>
                     <p class="lead grey-text text-center w-responsive mx-auto mb-5">
                         Auto Cloud Tech supplies it's SaaS based ERP system to tier 3 Auto Factors (1 to 20 branches) in the Irish 
-                        and UK automotive aftermarket. 
+                        and UK automotive aftermarket.<br>
                         <span id="moreSystem"> 
                             The technology was developed in close collaboration with a Cork based auto factor, 
-                            Premier Auto Parts who currently use it as the primary ERP system in their multiple stores.
+                            Premier Auto Parts who currently use it as the primary ERP system in their multiple stores.<br>
                         </span>
+                        <button type="button" id="systemBtn" class="btn" name="moreSystem" onclick="showMore(this.id, this.name)">Read more</button>
                     </p>
+                </section class="my-5">
+                    <h2 class="h1-responsive font-weight-bold text-center my-5">Challenges for IT companies in Aftermarket Industry</h2>
+                    <p class="lead grey-text text-center w-responsive mx-auto mb-5">
+                        It is widely accepted that the aftermarket motor industry is very complex for which to develop Cloud based software.<br>
+                        <span id="moreChallenge"> 
+                        There are over 23,000 car makes and models in circulation, some of which have been modified. 
+                        Each car has over 10,000 parts that are constantly being replaced, upgraded and moved to end of life.<br>
+                        </span>
+                        <button type="button" id="challengeBtn" class="btn" name="moreChallenge" onclick="showMore(this.id, this.name)">Read more</button>
+                    </p>
+                <section>
                 </section>
             </div>
         </div>

@@ -16,6 +16,7 @@
     background-color: #FC4445;
 }
 
+
 /*
 .swiper-container {
     width: 80%;
@@ -56,5 +57,9 @@
 }
 
 #moreSystem {
+    display: none;
+}
+
+#moreChallenge {
     display: none;
 }
