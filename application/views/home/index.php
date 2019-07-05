@@ -123,23 +123,36 @@
     </div>
     <!-- Swiper -->
 
-    <div class="swiper-container" style="height:500px;">
+    <div class="swiper-container" style="">
         <div class="swiper-wrapper">
-            <div class="swiper-slide"><img class="img-fluid" src="./application/assets/img/slideshow/1.jpg"></div>
-            <div class="swiper-slide"><img class="img-fluid" src="./application/assets/img/slideshow/2.jpg"></div>
-            <div class="swiper-slide"><img class="img-fluid" src="./application/assets/img/slideshow/4.jpg"></div>
-            <div class="swiper-slide"><img class="img-fluid" src="./application/assets/img/slideshow/3.jpg"></div>
-            <div class="swiper-slide"><img class="img-fluid" src="./application/assets/img/slideshow/5.jpg"></div>
-            <div class="swiper-slide"><img class="img-fluid" src="./application/assets/img/slideshow/6.jpg"></div>
-            <div class="swiper-slide"><img class="img-fluid" src="./application/assets/img/slideshow/7.jpg"></div>
-            <div class="swiper-slide"><img class="img-fluid" src="./application/assets/img/slideshow/8.jpg"></div>
+            <!--
+                <div class="swiper-slide"><img class="img-fluid" src="./application/assets/img/slideshow/1.jpg"></div>
+                <div class="swiper-slide"><img class="img-fluid" src="./application/assets/img/slideshow/2.jpg"></div>
+                <div class="swiper-slide"><img class="img-fluid" src="./application/assets/img/slideshow/4.jpg"></div>
+                <div class="swiper-slide"><img class="img-fluid" src="./application/assets/img/slideshow/3.jpg"></div>
+                <div class="swiper-slide"><img class="img-fluid" src="./application/assets/img/slideshow/5.jpg"></div>
+                <div class="swiper-slide"><img class="img-fluid" src="./application/assets/img/slideshow/6.jpg"></div>
+                <div class="swiper-slide"><img class="img-fluid" src="./application/assets/img/slideshow/7.jpg"></div>
+                <div class="swiper-slide"><img class="img-fluid" src="./application/assets/img/slideshow/8.jpg"></div>
+            -->
+
+            <div class="swiper-slide" style="background-image: url(./application/assets/img/slideshow/1.jpg);"></div>
+            <div class="swiper-slide" style="background-image: url(./application/assets/img/slideshow/2.jpg);"></div>
+            <div class="swiper-slide" style="background-image: url(./application/assets/img/slideshow/3.jpg);"></div>
+            <div class="swiper-slide" style="background-image: url(./application/assets/img/slideshow/4.jpg);"></div>
+            <div class="swiper-slide" style="background-image: url(./application/assets/img/slideshow/5.jpg);"></div>
+            <div class="swiper-slide" style="background-image: url(./application/assets/img/slideshow/6.jpg);"></div>
+            <div class="swiper-slide" style="background-image: url(./application/assets/img/slideshow/7.jpg);"></div>
+            <div class="swiper-slide" style="background-image: url(./application/assets/img/slideshow/8.jpg);"></div>
         </div>
         <!-- Add Pagination -->
+        <!--
         <div class="swiper-pagination"></div>
+        -->
         <!-- If we need navigation buttons -->
+
         <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div>
     </div>
-
 </main>
 <!-- Main layout -->

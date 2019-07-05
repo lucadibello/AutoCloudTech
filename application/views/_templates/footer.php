@@ -89,12 +89,11 @@
             effect: 'coverflow',
             grabCursor: true,
             centeredSlides: true,
-            slidesPerView: 2,
+            slidesPerView: "auto",
             resizeReInit: true,
             autoHeight: true,
-            spaceBetween: 100,
             loop: true,
-            centeredSlides: true,
+            slidesPerGroup: 1,
             autoplay: {
                 delay: 2500,
                 disableOnInteraction: false,
@@ -102,8 +101,8 @@
             coverflowEffect: {
                 rotate: 55,
                 stretch: 0,
-                depth: 300,
-                modifier: 1,
+                depth: 200,
+                modifier: 0.5,
                 slideShadows: true,
             },
             pagination: {

@@ -13,9 +13,6 @@
     <!-- Material Design Bootstrap -->
     <link href="./application/assets/mdb/css/mdb.min.css" rel="stylesheet">
 
-    <!-- Personal style file -->
-    <link href="./application/assets/mdb/css/style.css" rel="stylesheet">
-
     <!-- Animate CSS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css" rel="stylesheet">
 
@@ -24,6 +21,9 @@
     
     <!-- Swiper Js Stylesheet -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
+
+    <!-- Personal style file -->
+    <link href="./application/assets/css/style.css" rel="stylesheet">
 </head>
 
 <body>
