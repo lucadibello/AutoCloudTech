@@ -92,7 +92,7 @@
         
         //Initialize smooth scroll
         var scroll = new SmoothScroll('a[href*="#"]', {
-            speed: 300
+            speed: 2000
         });
 
         //initialize swiper when document ready

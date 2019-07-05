@@ -6,8 +6,12 @@
             <div class="container flex-center text-center">
                 <div class="row mt-5">
                     <div class="col-md-12 mb-3 animated slideInDown">
-                        <h1 class="title h1 my-3 font-weight-bold">Auto<span class="red-text">Cloud</span><span class="indigo-text">Tech</span></h1>
-                        <a class="text-uppercase mb-3 mt-1 font-weight-bold" data-scroll href="#products">View products</a>
+                        <!--
+                            <h1 class="title h1 my-3 font-weight-bold">Auto<span class="red-text">Cloud</span><span class="indigo-text">Tech</span></h1>
+                        -->
+                        <h1 class="header h1-responsive my-3 font-weight-bolder">AutoCloudTech</h1>
+                        <br>
+                        <a class="mb-3 mt-1 font-weight-bold black-text" data-scroll href="#products"><i style="font-size:150px" class="fa fa-arrow-down" aria-hidden="true"></i></a>
                     </div>
                 </div>
             </div>
