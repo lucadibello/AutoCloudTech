@@ -37,7 +37,7 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link text-white" href="./Home">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-white" href="./About">About Us</a>
@@ -49,7 +49,7 @@
                     <a class="nav-link text-white" href="#">Features</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Integration</a>
+                    <a class="nav-link text-white" href="./Integration">Integration</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-white" href="#">Benefits</a>
