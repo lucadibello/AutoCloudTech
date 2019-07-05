@@ -25,7 +25,7 @@
         <div class="row">
             <div class="col-sm-12">
                 <section class="my-5">
-                    <p class="lead grey-text text-center w-responsive mx-auto mb-5">Once a customer has been signed up we will move quickly to get them on board. We have identified a 5-step approach to that operation process.</p>
+                    <p class="lead grey-text text-center w-responsive mx-auto mb-5">Once a customer has been signed up we will move quickly to get them on board. We have identified a 4-step approach to that operation process.</p>
                     <div class="row">
                         <div class="col-4">
                             <div class="list-group" id="list-tab" role="tablist">
@@ -42,7 +42,6 @@
                                     On average this will take six weeks to complete for a two-person team working two days per week.
                                     The integration process will be led by our CTO and supported by our development team based in Ireland.
                                     Being a cloud-based system integration is made easier by our Irish based team having full access to the system at all times.
-
                                 </div>
                                 <div class="tab-pane fade" id="list-data" role="tabpanel" aria-labelledby="list-data-list">
                                     In all cases there will be a data migration effort required to export data from current system the client is operating.
