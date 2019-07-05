@@ -8,8 +8,9 @@
                     <div class="col-md-12 mb-3 animated slideInDown">
                         <!--
                             <h1 class="title h1 my-3 font-weight-bold">Auto<span class="red-text">Cloud</span><span class="indigo-text">Tech</span></h1>
+                            <h1 class="header h1-responsive my-3 font-weight-bolder">AutoCloudTech</h1>
                         -->
-                        <h1 class="header h1-responsive my-3 font-weight-bolder">AutoCloudTech</h1>
+                        <img class="img-fluid" id="header-logo" alt="AutoCloudTech" src="./application/assets/img/logo.jpg">
                         <br>
                         <a class="mb-3 mt-1 font-weight-bold black-text" data-scroll href="#products"><i style="font-size:150px" class="fa fa-arrow-down" aria-hidden="true"></i></a>
                     </div>
@@ -166,4 +167,36 @@
         </div>
     </div>
 </main>
+
+<!-- Swiper Js library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
+
+<!-- Smooth scroll library -->
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0/dist/smooth-scroll.polyfills.min.js"></script>
+
+<script>
+    //Initialize smooth scroll
+    $(document).ready(function() {
+
+        var scroll = new SmoothScroll('a[href*="#"]', {
+            speed: 2000
+        });
+
+        //initialize swiper when document ready
+        var swiper = new Swiper($(".swiper-container"), {
+            direction: 'vertical',
+            slidesPerView: 1,
+            spaceBetween: 100,
+            mousewheel: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+        });
+
+        // Initialize slider
+        swiper.init();
+    });
+</script>
+
 <!-- Main layout -->

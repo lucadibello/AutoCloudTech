@@ -54,9 +54,6 @@
 </footer>
 <!-- Footer -->
 
-<!-- JQuery -->
-<script type="text/javascript" src="./application/assets/mdb/js/jquery-3.4.1.min.js"></script>
-
 <!-- Bootstrap core JavaScript -->
 <script type="text/javascript" src="./application/assets/mdb/js/bootstrap.min.js"></script>
 
@@ -75,12 +72,6 @@
 <!-- More text js script -->
 <script src="./application/assets/js/more.js"></script>
 
-<!-- Swiper Js library -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
-
-<!-- Smooth scroll library -->
-<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0/dist/smooth-scroll.polyfills.min.js"></script>
-
 <script>
     $(document).ready(function() {
         console.log($(".jarallax"));
@@ -89,26 +80,6 @@
         $(".jarallax").jarallax({
             speed: 0.2,
         });
-        
-        //Initialize smooth scroll
-        var scroll = new SmoothScroll('a[href*="#"]', {
-            speed: 2000
-        });
-
-        //initialize swiper when document ready
-        var swiper = new Swiper($(".swiper-container"), {
-            direction: 'vertical',
-            slidesPerView: 1,
-            spaceBetween: 100,
-            mousewheel: true,
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
-            },
-        });
-
-        // Initialize slider
-        swiper.init();
     });
 </script>
 

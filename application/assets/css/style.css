@@ -16,8 +16,9 @@
     color: #55BCC9;
 }
 
-.header{
-    font-size: 10em;
+#header-logo{
+    width: 1000px;
+    max-width: 150%;
 }
 
 .title-red-text{
