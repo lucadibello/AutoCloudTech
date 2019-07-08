@@ -6,7 +6,7 @@
             <div class="container flex-center text-center">
                 <div class="row mt-5">
                     <div class="col-md-12 mb-3">
-                        <img class="img-fluid animated slideInDown" id="header-logo" alt="AutoCloudTech" src="./application/assets/img/logo.jpg">
+                        <img class="img-fluid animated slideInDown" id="header-logo" alt="AutoCloudTech" src="./application/assets/img/new_logo.png">
                         <br><br>
                         <div class="pulse-hover" id="header-arrow">
                             <a class="black-text mb-3 mt-1 font-weight-bold" data-scroll href="#products">
