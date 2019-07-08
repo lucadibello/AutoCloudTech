@@ -13,7 +13,7 @@
 }
 
 .title-blue-text {
-    color: #55BCC9;
+    color: #3FEEE6;
 }
 
 #header-logo {
@@ -42,6 +42,15 @@
 .title-red-text{
     color: #FC4445;
 }
+
+#motorFactorProduct{
+    background-color: #FC4445;
+}
+
+#garageTyreCenterProduct{
+    background-color: #3FEEE6;
+}
+
 
 footer {
     background-color: #FC4445;
@@ -93,5 +102,13 @@ footer {
     .list-group-item {
         font-size: 0.7em;
         padding-left: 0.5em;
+    }
+
+    .row{
+        margin: 0 !important;
+    }
+
+    #motorFactorProduct{
+        margin-bottom: 5vh;
     }
 }

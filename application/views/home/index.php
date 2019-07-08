@@ -40,24 +40,31 @@
         -->
 
         <section id="products">
+            <br>
+
+            <div class="col-md-12" style="margin-bottom: 10vh;">
+                <h1 class="h1 font-weight-bold black-text text-center">Our software</h1>
+            </div>
+
             <div class="row col-12">
-                <div class="col-sm-6 text-center">
-                    <h2 class="h1 font-weight-bold title-blue-text my-5 py-4">MotorFactor Software</h2>
+                <div id="motorFactorProduct" class="col-md-6 text-center">
+                    <h2 class="h1 font-weight-bold title-blue-text my-5 py-4">MotorFactor</h2>
 
-                    <div class="col-sm-6 text-center">
-                        <p align="center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sapien augue, dictum et gravida et, viverra et est.</p>
+                    <div class="text-center title-blue-text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sapien augue, dictum et gravida et, viverra et est.</p>
                         <a class="btn btn-blue btn-lg ">Continue reading...</a>
                     </div>
                 </div>
 
-                <div class="col-sm-6 text-center">
-                    <h2 class="h1 font-weight-bold title-red-text my-5 py-4">Garage & Tyre Centre Software</h2>
+                <div id="garageTyreCenterProduct" class="col-md-6 text-center">
+                    <h2 class="h1 font-weight-bold title-red-text my-5 py-4">Garage & Tyre Centre</h2>
 
-                    <div class="col-sm-6 text-center">
-                        <p align="center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sapien augue, dictum et gravida et, viverra et est.</p>
+                    <div class="text-center title-red-text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sapien augue, dictum et gravida et, viverra et est.</p>
                         <a class="btn btn-blue btn-lg ">Continue reading...</a>
                     </div>
                 </div>
+
             </div>
         </section>
 
