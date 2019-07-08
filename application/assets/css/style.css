@@ -19,38 +19,39 @@
 #header-logo {
     width: 1000px;
     max-width: 150%;
+    background-size: contain;
+    background-size: cover;
 }
 
-.pulse-hover:hover{
+.pulse-hover:hover {
     transform: scale(1.4);
     transition: all ease 1000ms;
 }
 
-.pulse-hover{
+.pulse-hover {
     transition: all ease 700ms;
 }
 
-#header-logo{
+#header-logo {
     max-width: 150%;
 }
 
-#header-arrow{
+#header-arrow {
     color: #97CAEF;
     font-size: 4em;
 }
 
-.title-red-text{
+.title-red-text {
     color: #FC4445;
 }
 
-#motorFactorProduct{
+#motorFactorProduct {
     background-color: #FC4445;
 }
 
-#garageTyreCenterProduct{
+#garageTyreCenterProduct {
     background-color: #3FEEE6;
 }
-
 
 footer {
     background-color: #FC4445;
@@ -90,7 +91,7 @@ footer {
     transition: all 2s;
 }
 
-#products a{
+#products a {
     margin-bottom: 2vh;
 }
 
@@ -107,12 +108,10 @@ footer {
         font-size: 0.7em;
         padding-left: 0.5em;
     }
-
-    .row{
+    .row {
         margin: 0 !important;
     }
-
-    #motorFactorProduct{
+    #motorFactorProduct {
         margin-bottom: 5vh;
     }
 }
