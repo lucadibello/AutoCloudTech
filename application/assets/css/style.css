@@ -157,6 +157,17 @@ footer {
     background-image: url('../img/icons/partnumber.png');
 }
 
+@media only screen and (max-width: 400px) {
+    .title {
+        text-align: center;
+        border-bottom: 1px solid black;
+    }
+}
+
 .title {
     border-right: 1px solid black;
+}
+
+.margin-y {
+    margin-top: 10rem;
 }
