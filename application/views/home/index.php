@@ -44,7 +44,7 @@
 
                         <div class="text-center title-blue-text">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sapien augue, dictum et gravida et, viverra et est.</p>
-                            <a class="btn btn-blue btn-lg ">Continue reading...</a>
+                            <a class="btn btn-blue btn-lg" href="./MotorFactory">More informations</a>
                         </div>
                     </div>
 
@@ -53,7 +53,7 @@
 
                         <div class="text-center title-red-text">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sapien augue, dictum et gravida et, viverra et est.</p>
-                            <a class="btn btn-blue btn-lg ">Continue reading...</a>
+                            <a class="btn btn-blue btn-lg" href="./Home">More informations</a>
                         </div>
                     </div>
 
@@ -174,11 +174,6 @@
     <script>
         //Initialize smooth scroll
         $(document).ready(function() {
-
-            var scroll = new SmoothScroll('a[href*="#"]', {
-                speed: 2000
-            });
-
             //initialize swiper when document ready
             var swiper = new Swiper($(".swiper-container"), {
                 direction: 'vertical',
