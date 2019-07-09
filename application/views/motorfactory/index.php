@@ -71,7 +71,7 @@
             </div>
         </section>
 
-        <section class="my-5" id="website-section">
+        <section class="" id="website-section">
             <div class="row">
                 <div class="col-md-3 text-right title">
                     <h5>24/7 Shopping Website</h5>
@@ -103,7 +103,7 @@
             </div>
         </section>
 
-        <section class="my-5" id="reglookup-section">
+        <section class="margin-y" id="reglookup-section">
             <div class="row">
                 <div class="col-md-3 text-right title">
                     <h5>Reg Look Up</h5>
@@ -116,7 +116,7 @@
             </div>
         </section>
 
-        <section class="my-5" id="accounting-section">
+        <section class="margin-y" id="accounting-section">
             <div class="row">
                 <div class="col-md-3 text-right title">
                     <h5>Accounting & Finance</h5>
@@ -149,7 +149,7 @@
             </div>
         </section>
 
-        <section class="my-5" id="tecdoc-section">
+        <section class="margin-y" id="tecdoc-section">
             <div class="row">
                 <div class="col-md-3 text-right title">
                     <h5>Search by vehicle make</h5>
@@ -163,7 +163,7 @@
             </div>
         </section>
 
-        <section class="my-5" id="stockcontrol-section">
+        <section class="margin-y" id="stockcontrol-section">
             <div class="row">
                 <div class="col-md-3 text-right title">
                     <h5>Stock Control</h5>
@@ -189,7 +189,7 @@
             </div>
         </section>
 
-        <section class="my-5" id="partnumber-section">
+        <section class="margin-y" id="partnumber-section">
             <div class="row">
                 <div class="col-md-3 text-right title">
                     <h5>Search by part number</h5>
@@ -205,7 +205,8 @@
     <script>
         $(document).ready(function() {
             var scroll = new SmoothScroll('a[href*="#"]', {
-                speed: 2000
+                speed: 2000,
+                header: '[data-scroll-header]'
             });
 
         });
