@@ -24,28 +24,11 @@
             </div>
         </div>
 
-        <div class="container">
-            <!--
-            <div class="row mb-5 pb-4">
-                <div class="col-md-6 text-center">
-                    <h2 class="h1 font-weight-bold light-blue-text my-5 py-4">About us</h2>
-                    <p align="justify">Auto Cloud Tech supplies it's SaaS based ERP system to tier 3 Auto Factors (1 to 20 branches) in the Irish and UK automotive aftermarket. The technology was developed in close collaboration with a Cork based auto factor, Premier Auto Parts who currently use it as the primary ERP system in their multiple stores.</p>
+    <div class="container">
 
-                    <a class="btn btn-blue btn-lg ">Continue reading...</a>
-                </div>
-
-                <div class="col-md-6 text-center" id="extSlogan">
-                    <div id="slogan">
-                        <h3>Complete ERP System</h3>
-                        <h3>e-Commerce Website</h3>
-                        <h3>TecCom Enabled</h3>
-                    </div>
-                </div>
-            </div>
-        -->
-
-            <section id="products">
-                <br>
+        <!-- Product section -->
+        <section id="products">
+            <br>
 
                 <div class="col-md-12" style="margin-bottom: 10vh;">
                     <h1 class="h1 font-weight-bold black-text text-center">Our software</h1>
