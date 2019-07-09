@@ -60,6 +60,39 @@
                 </div>
             </div>
         </section>
+
+        <section class="my-5" id="website-section">
+            <div class="row">
+                <div class="col-md-3 text-right">
+                    <h5>24/7 Shopping Website</h5>
+                </div>
+                <div class="col-md-6 text-right">
+                    <div class="row">
+                        <div class="col-md-4 m-2">
+                            <p class="font-weight-bold">Payment Gateway</p>
+                        </div>
+                        <div class="col-md-4 m-2">
+                            <p class="font-weight-bold">Registration Lookup</p>
+                        </div>
+                        <div class="col-md-4 m-2">
+                            <p class="font-weight-bold">Customers Lookup</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 m-2">
+                            <p class="font-weight-bold">Accounting</p>
+                        </div>
+                        <div class="col-md-4 m-2">
+                            <p class="font-weight-bold">Suppliers Lookup</p>
+                        </div>
+                        <div class="col-md-4 m-2">
+                            <p class="font-weight-bold">Orders Lookup</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section class="my-5">
             <div class="row">
                 <div class="col-md-3 text-right">
@@ -67,7 +100,7 @@
                 </div>
                 <div class="col-md-6">
                     <p>This is done by entering your Irish/UK Registration Plate. <br>
-                    Once you've entered your registration plate, you will be able to view the car details.</p>
+                        Once you've entered your registration plate, you will be able to view the car details.</p>
                     <img src="./application/assets/img/motorfactory-screenshots/reglookup.png" class="img-fluid" alt="Reg Look Up">
                 </div>
             </div>
