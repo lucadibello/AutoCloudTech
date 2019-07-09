@@ -23,35 +23,56 @@
     </div>
     <div class="container">
         <section class="my-5">
-            <div class="row mb-5">
-                <div class="col-md-4 text-center">
-                    <div id="website247" class="icon-blue"> 
-                    </div>
+            <div class="row">
+                <div class="col-md-4 text-center mb-5">
+                    <a href="#website-section">
+                        <div id="website247" class="icon-blue">
+                        </div>
+                        <h5>24/7 Shopping website</h5>
+                    </a>
                 </div>
-                <div class="col-md-4 text-center">
+                <div class="col-md-4 text-center mb-5">
                     <div id="reglookup" class="icon-red">
                     </div>
+                    <h5>Reg Look Up</h5>
                 </div>
-                <div class="col-md-4 text-center">
+                <div class="col-md-4 text-center mb-5">
                     <div id="accounting" class="icon-blue">
                     </div>
+                    <h5>Accounting & Finance</h5>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4 text-center">
+                <div class="col-md-4 text-center mb-5">
                     <div id="tecdoc" class="icon-red">
                     </div>
+                    <h5>Search by vehicle make</h5>
                 </div>
-                <div class="col-md-4 text-center">
+                <div class="col-md-4 text-center mb-5">
                     <div id="stockcontrol" class="icon-blue">
                     </div>
+                    <h5>Stock Control</h5>
                 </div>
-                <div class="col-md-4 text-center">
+                <div class="col-md-4 text-center mb-5">
                     <div id="partnumber" class="icon-red">
                     </div>
+                    <h5>Search by Part Number</h5>
                 </div>
             </div>
         </section>
+        <section class="my-5">
+            <div class="row">
+                <div class="col-md-3 text-right">
+                    <h5>Reg Look Up</h5>
+                </div>
+                <div class="col-md-6">
+                    <p>This is done by entering your Irish/UK Registration Plate. <br>
+                    Once you've entered your registration plate, you will be able to view the car details.</p>
+                    <img src="./application/assets/img/motorfactory-screenshots/reglookup.png" class="img-fluid" alt="Reg Look Up">
+                </div>
+            </div>
+        </section>
+
     </div>
 </body>
 
