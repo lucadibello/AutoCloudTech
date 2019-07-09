@@ -84,6 +84,10 @@
 <!-- More text js script -->
 <script src="./application/assets/js/more.js"></script>
 
+<!-- Smooth scroll -->
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0/dist/smooth-scroll.polyfills.min.js"></script>
+
+
 <script>
     $(document).ready(function() {
         console.log($(".jarallax"));
