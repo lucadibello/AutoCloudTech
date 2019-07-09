@@ -29,7 +29,7 @@
 <body>
     <nav id="navigation" class="navbar navbar-expand-lg fixed-top scrolling-navbar">
         <a class="navbar-brand" href="#">
-            <img src="./application/assets/img/logo.jpg" height="30" alt="ACT logo">
+            <img src="./application/assets/illustrator/logo.svg" height="30" alt="ACT logo">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"><img src="./application/assets/img/icons/header/burger-menu-30.png"></span>
@@ -40,22 +40,10 @@
                     <a class="nav-link text-white" href="./Home">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="./About">About Us</a>
+                    <a class="nav-link text-white" href="./MotorFactory">Motor Factory Software System</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Challenge & Solutions</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Features</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="./Integration">Integration</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Benefits</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="#">FAQ's</a>
+                    <a class="nav-link text-white" href="#">Garage Software System</a>
                 </li>
             </ul>
         </div>
