@@ -173,7 +173,8 @@
         $(document).ready(function() {
 
             var scroll = new SmoothScroll('a[href*="#"]', {
-                speed: 2000
+                speed: 2000,
+                header: '[data-scroll-header]'
             });
 
             //initialize swiper when document ready

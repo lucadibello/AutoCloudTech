@@ -26,7 +26,7 @@
 </head>
 
 <body>
-    <nav id="navigation" class="navbar navbar-expand-lg fixed-top scrolling-navbar">
+    <nav id="navigation" data-scroll-header class="navbar navbar-expand-lg fixed-top scrolling-navbar">
         <a class="navbar-brand" href="./Home">
             <img id="nav-image" src="./application/assets/illustrator/logo.svg" height="30" alt="ACT logo">
         </a>
