@@ -16,12 +16,11 @@
     color: #3FEEE6;
 }
 
+
 #header-logo {
-    width: 80vw;
-    max-width: 150%;
-    background-size: contain;
-    background-size: cover;
+    width: 60vw;
 }
+
 
 .pulse-hover:hover {
     transform: scale(1.4);

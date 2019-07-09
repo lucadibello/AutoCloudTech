@@ -27,7 +27,7 @@
 
 <body>
     <nav id="navigation" class="navbar navbar-expand-lg fixed-top scrolling-navbar">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="./Home">
             <img id="nav-image" src="./application/assets/illustrator/logo.svg" height="30" alt="ACT logo">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,9 +35,6 @@
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link text-white" href="./Home">Home <span class="sr-only">(current)</span></a>
-                </li>
                 <li class="nav-item">
                     <a class="nav-link text-white" href="./MotorFactory">Motor Factory Software System</a>
                 </li>
