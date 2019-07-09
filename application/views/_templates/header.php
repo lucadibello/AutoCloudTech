@@ -40,22 +40,10 @@
                     <a class="nav-link text-white" href="./Home">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="./About">About Us</a>
+                    <a class="nav-link text-white" href="./MotorFactory">Motor Factory Software System</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Challenge & Solutions</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Features</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="./Integration">Integration</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Benefits</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="#">FAQ's</a>
+                    <a class="nav-link text-white" href="#">Garage Software System</a>
                 </li>
             </ul>
         </div>
