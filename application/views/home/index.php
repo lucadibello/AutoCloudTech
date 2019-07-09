@@ -168,9 +168,6 @@
     <!-- Swiper Js library -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
 
-    <!-- Smooth scroll library -->
-    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0/dist/smooth-scroll.polyfills.min.js"></script>
-
     <script>
         //Initialize smooth scroll
         $(document).ready(function() {

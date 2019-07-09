@@ -16,11 +16,9 @@
     color: #3FEEE6;
 }
 
-
 #header-logo {
     width: 60vw;
 }
-
 
 .pulse-hover:hover {
     transform: scale(1.4);
@@ -157,4 +155,8 @@ footer {
 
 #partnumber {
     background-image: url('../img/icons/partnumber.png');
+}
+
+.title {
+    border-right: 1px solid black;
 }
