@@ -22,30 +22,36 @@
         </div>
     </div>
     <div class="container">
-        <div class="row">
-            <div class="col-md-4 text-center">
-                <div id="website247">
-                    <img src="./assets/img/icons/website247.png" alt="website">
+        <section class="my-5">
+            <div class="row mb-5">
+                <div class="col-md-4 text-center">
+                    <div id="website247" class="icon-blue"> 
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div id="reglookup" class="icon-red">
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div id="accounting" class="icon-blue">
+                    </div>
                 </div>
             </div>
-            <div class="col-md-4 text-center">
-                
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <div id="tecdoc" class="icon-red">
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div id="stockcontrol" class="icon-blue">
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div id="partnumber" class="icon-red">
+                    </div>
+                </div>
             </div>
-            <div class="col-md-4 text-center">
-                
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4 text-center">
-
-            </div>
-            <div class="col-md-4 text-center">
-                
-            </div>
-            <div class="col-md-4 text-center">
-                
-            </div>
-        </div>
+        </section>
     </div>
 </body>
 
