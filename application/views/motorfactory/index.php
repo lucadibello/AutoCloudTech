@@ -15,8 +15,7 @@
             <div class="container flex-center text-center">
                 <div class="row mt-5">
                     <div class="col-md-12 mb-3 animated slideInDown">
-                        <h1 class="title h1 my-3 font-weight-bold">Auto<span class="red-text">Cloud</span><span class="indigo-text">Tech</span></h1>
-                        <h5 class="text-uppercase mb-3 mt-1 font-weight-bold ">Web developer & graphic designer</h5>
+                        <h1 class="title h1 my-3 font-weight-bold"><span class="red-text">Motor Factory Software System</span></h1>
                     </div>
                 </div>
             </div>
