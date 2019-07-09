@@ -6,18 +6,22 @@
     <!-- Main layout -->
     <main>
         <div class="view jarallax" style="height: 100vh;">
-            <img class="jarallax-img" src="https://images.unsplash.com/photo-1517190382598-c640925961b3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1476&q=80" alt="">
+            <img class="jarallax-img" src="https://images.unsplash.com/photo-1465440567949-6062e3a8459f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="">
             <div class="mask rgba-blue-slight">
                 <div class="container flex-center text-center">
                     <div class="row mt-5">
-                        <div class="col-md-12 mb-3">
+                        <div class="col-md-12 mb-3" style="text-align: center !important;">
+
                             <img class="img-fluid animated slideInDown" id="header-logo" alt="AutoCloudTech" src="./application/assets/illustrator/logo.svg">
                             <br><br>
+
                             <div class="pulse-hover" id="header-arrow">
                                 <a class="black-text mb-3 mt-1 font-weight-bold" data-scroll href="#products">
                                     <i class="fa fa-arrow-down" aria-hidden="true"></i>
                                 </a>
                             </div>
+                            <p class="white-text">See what we have to offer</p>
+
                         </div>
                     </div>
                 </div>
