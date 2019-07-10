@@ -228,7 +228,7 @@
         <div class="modal fade" id="regNumberLookup" tabindex="-1" role="dialog" aria-labelledby="regNumberLookup"
              aria-hidden="true">
 
-            <div class="modal-dialog modal-side modal-top-right" role="document">
+            <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title" id="regNumberLookupLabel">Search by registration number</h5>
@@ -255,7 +255,7 @@
         <div class="modal fade" id="orderProduct" tabindex="-1" role="dialog" aria-labelledby="orderProduct"
              aria-hidden="true">
 
-            <div class="modal-dialog modal-side modal-top-right" role="document">
+            <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title" id="orderProductLabel">Order component</h5>
