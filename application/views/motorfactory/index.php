@@ -84,9 +84,7 @@
                         <div class="col-md-4 m-2">
                             <p class="font-weight-bold">Registration Lookup</p>
                         </div>
-                        <div class="col-md-4 m-2">
-                            <p class="font-weight-bold">Customers Lookup</p>
-                        </div>
+
                     </div>
                     <div class="row">
                         <div class="col-md-4 m-2">
@@ -95,8 +93,14 @@
                         <div class="col-md-4 m-2">
                             <p class="font-weight-bold">Suppliers Lookup</p>
                         </div>
+
+                    </div>
+                    <div class="row">
                         <div class="col-md-4 m-2">
                             <p class="font-weight-bold">Orders Lookup</p>
+                        </div>
+                        <div class="col-md-4 m-2">
+                            <p class="font-weight-bold">Customers Lookup</p>
                         </div>
                     </div>
                 </div>
@@ -136,9 +140,7 @@
                         <div class="col-md-4 m-2">
                             <p class="font-weight-bold">Invoices</p>
                         </div>
-                        <div class="col-md-4 m-2">
-                            <p class="font-weight-bold">VAT</p>
-                        </div>
+
                     </div>
                     <div class="row">
                         <div class="col-md-4 m-2">
@@ -146,6 +148,12 @@
                         </div>
                         <div class="col-md-4 m-2">
                             <p class="font-weight-bold">User Level Access Control</p>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 m-2">
+                            <p class="font-weight-bold">VAT</p>
                         </div>
                         <div class="col-md-4 m-2">
                             <p class="font-weight-bold">Integrate Other Accounting Packeges</p>
