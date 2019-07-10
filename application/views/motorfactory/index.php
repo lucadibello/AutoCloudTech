@@ -117,12 +117,16 @@
                         Once you've entered your registration plate, you will be able to view the car details.</p>
                     <img src="./application/assets/img/motorfactory-screenshots/reglookup.png" class="img-fluid" alt="Reg Look Up">
 
-                    <br>
+                    <br style="height: 5vh;">
+
                     <h6>Video example:</h6>
-                    <video controls>
-                        <source src="./application/assets/olive/renders/reg-number.wmv" type="video/wmv">
-                        Your browser does not support videos.
-                    </video>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <video controls>
+                            <source src="./application/assets/olive/renders/reg-number.webm" type="video/webm">
+                            Your browser does not support videos.
+                        </video>
+                    </div>
+
                 </div>
             </div>
         </section>
