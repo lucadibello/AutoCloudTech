@@ -211,7 +211,7 @@
             </div>
         </section>
 
-        <section class="margin-y" id="partnumber-section">
+        <section class="margin-y mb-5" id="partnumber-section">
             <div class="row">
                 <div class="col-md-3 text-right title">
                     <h5>Search by part number</h5>
