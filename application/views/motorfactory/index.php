@@ -117,12 +117,14 @@
                         Once you've entered your registration plate, you will be able to view the car details.</p>
                     <img src="./application/assets/img/motorfactory-screenshots/reglookup.png" class="img-fluid" alt="Reg Look Up">
 
-                    <br>
-                    <h6>Video example:</h6>
-                    <video controls>
-                        <source src="./application/assets/olive/renders/reg-number.wmv" type="video/wmv">
-                        Your browser does not support videos.
-                    </video>
+                    <hr>
+                    <h6>Videos</h6>
+
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#regNumberLookup">
+                        Launch demo modal
+                    </button>
+
                 </div>
             </div>
         </section>
@@ -215,6 +217,33 @@
                 </div>
             </div>
         </section>
+
+
+        <!-- Modal Reg Lookup -->
+        <div class="modal fade" id="regNumberLookup" tabindex="-1" role="dialog" aria-labelledby="regNumberLookup"
+             aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="regNumberLookupLabel">Modal title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <video controls>
+                                <source src="./application/assets/olive/renders/reg-number.webm" type="video/webm">
+                                Your browser does not support videos.
+                            </video>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </div>
     <script>
