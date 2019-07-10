@@ -76,7 +76,7 @@
                 <div class="col-md-3 text-right title">
                     <h5>24/7 Shopping Website</h5>
                 </div>
-                <div class="col-md-6 text-centers">
+                <div class="col-md-7 text-centers">
                     <div class="row">
                         <div class="col-md-4 m-2">
                             <p class="font-weight-bold">Payment Gateway</p>
@@ -84,9 +84,7 @@
                         <div class="col-md-4 m-2">
                             <p class="font-weight-bold">Registration Lookup</p>
                         </div>
-                        <div class="col-md-4 m-2">
-                            <p class="font-weight-bold">Customers Lookup</p>
-                        </div>
+
                     </div>
                     <div class="row">
                         <div class="col-md-4 m-2">
@@ -95,8 +93,14 @@
                         <div class="col-md-4 m-2">
                             <p class="font-weight-bold">Suppliers Lookup</p>
                         </div>
+
+                    </div>
+                    <div class="row">
                         <div class="col-md-4 m-2">
                             <p class="font-weight-bold">Orders Lookup</p>
+                        </div>
+                        <div class="col-md-4 m-2">
+                            <p class="font-weight-bold">Customers Lookup</p>
                         </div>
                     </div>
                 </div>
@@ -108,7 +112,7 @@
                 <div class="col-md-3 text-right title">
                     <h5>Reg Look Up</h5>
                 </div>
-                <div class="col-md-6 text-center">
+                <div class="col-md-7 text-center">
                     <p>This is done by entering your Irish/UK Registration Plate. <br>
                         Once you've entered your registration plate, you will be able to view the car details.</p>
                     <img src="./application/assets/img/motorfactory-screenshots/reglookup.png" class="img-fluid" alt="Reg Look Up">
@@ -128,7 +132,7 @@
                 <div class="col-md-3 text-right title">
                     <h5>Accounting & Finance</h5>
                 </div>
-                <div class="col-md-6 text-center">
+                <div class="col-md-7 text-center">
                     <div class="row">
                         <div class="col-md-4 m-2">
                             <p class="font-weight-bold">Trial Balance</p>
@@ -136,9 +140,7 @@
                         <div class="col-md-4 m-2">
                             <p class="font-weight-bold">Invoices</p>
                         </div>
-                        <div class="col-md-4 m-2">
-                            <p class="font-weight-bold">VAT</p>
-                        </div>
+
                     </div>
                     <div class="row">
                         <div class="col-md-4 m-2">
@@ -146,6 +148,12 @@
                         </div>
                         <div class="col-md-4 m-2">
                             <p class="font-weight-bold">User Level Access Control</p>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 m-2">
+                            <p class="font-weight-bold">VAT</p>
                         </div>
                         <div class="col-md-4 m-2">
                             <p class="font-weight-bold">Integrate Other Accounting Packeges</p>
@@ -161,7 +169,7 @@
                 <div class="col-md-3 text-right title">
                     <h5>Search by vehicle make</h5>
                 </div>
-                <div class="col-md-6 text-center">
+                <div class="col-md-7 text-center">
                     <p>This is done by entering your Irish/UK Registration Plate. <br>
                         Once you've entered your registration plate, you will be able to view the car details.
                     </p>
@@ -175,7 +183,7 @@
                 <div class="col-md-3 text-right title">
                     <h5>Stock Control</h5>
                 </div>
-                <div class="col-md-6 text-center">
+                <div class="col-md-7 text-center">
                     <div class="row">
                         <div class="col-md-4 m-2">
                             <p class="font-weight-bold">Integration Between</p>
@@ -201,7 +209,7 @@
                 <div class="col-md-3 text-right title">
                     <h5>Search by part number</h5>
                 </div>
-                <div class="col-md-6 text-center">
+                <div class="col-md-7 text-center">
                     <p>This is done by inputting the part numer.</p>
                     <img src="./application/assets/img/motorfactory-screenshots/partnumber.png" class="img-fluid" alt="Part Number">
                 </div>

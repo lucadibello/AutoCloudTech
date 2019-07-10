@@ -28,11 +28,11 @@
             </div>
         </div>
 
-    <div class="container">
+        <div class="container">
 
-        <!-- Product section -->
-        <section id="products">
-            <br>
+            <!-- Product section -->
+            <section id="products">
+                <br>
 
                 <div class="col-md-12" style="margin-bottom: 10vh;">
                     <h1 class="h1 font-weight-bold black-text text-center">Our software</h1>
@@ -186,6 +186,10 @@
                 pagination: {
                     el: '.swiper-pagination',
                     clickable: true,
+                },
+                autoplay: {
+                    delay: 4000,
+                    disableOnInteraction: false,
                 },
             });
 
