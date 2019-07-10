@@ -43,8 +43,8 @@
                         <div id="accounting" class="icon-blue">
                         </div>
                         <h5>Accounting & Finance</h5>
+                    </a>
                 </div>
-                </a>
             </div>
             <div class="row">
                 <div class="col-md-4 text-center mb-5">
@@ -122,7 +122,7 @@
 
                     <!-- Button trigger modal -->
                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#regNumberLookup">
-                        Launch demo modal
+                        Search by registration number
                     </button>
 
                 </div>
@@ -222,10 +222,11 @@
         <!-- Modal Reg Lookup -->
         <div class="modal fade" id="regNumberLookup" tabindex="-1" role="dialog" aria-labelledby="regNumberLookup"
              aria-hidden="true">
-            <div class="modal-dialog" role="document">
+
+            <div class="modal-dialog modal-side modal-top-right" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="regNumberLookupLabel">Modal title</h5>
+                        <h5 class="modal-title" id="regNumberLookupLabel">Search by registration number</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
