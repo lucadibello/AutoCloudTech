@@ -125,6 +125,11 @@
                         Search by registration number
                     </button>
 
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#orderProduct">
+                        Order component
+                    </button>
+
                 </div>
             </div>
         </section>
@@ -235,6 +240,33 @@
                         <div class="embed-responsive embed-responsive-16by9">
                             <video controls>
                                 <source src="./application/assets/olive/renders/reg-number.webm" type="video/webm">
+                                Your browser does not support videos.
+                            </video>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Order Product -->
+        <div class="modal fade" id="orderProduct" tabindex="-1" role="dialog" aria-labelledby="orderProduct"
+             aria-hidden="true">
+
+            <div class="modal-dialog modal-side modal-top-right" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="orderProductLabel">Order component</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <video controls>
+                                <source src="./application/assets/olive/renders/buy-component.webm" type="video/webm">
                                 Your browser does not support videos.
                             </video>
                         </div>
