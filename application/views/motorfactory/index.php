@@ -231,14 +231,14 @@
                         <p class="h4 mb-4">Contact us</p>
 
                         <!-- Name -->
-                        <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Name">
+                        <input type="text" id="name" class="form-control mb-4" placeholder="Name">
 
                         <!-- Email -->
-                        <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail">
+                        <input type="email" id="email" class="form-control mb-4" placeholder="E-mail">
 
                         <!-- Message -->
                         <div class="form-group">
-                            <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Message"></textarea>
+                            <textarea class="form-control rounded-0" id="message" rows="3" placeholder="Message"></textarea>
                         </div>
 
                         <!-- Copy -->
@@ -318,6 +318,11 @@
             });
 
         });
+    </script>
+    <script src="./application/assets/js/validator.js"></script>
+    <script src="./application/assets/js/register.js"></script>
+    <script>
+        addListeners();
     </script>
 </body>
 
