@@ -27,7 +27,8 @@ function addListeners() {
 
 //PARAMS
 const global_length_min = 0;
-const global_length_max = 500;
+const name_length_max = 500;
+const message_length_max = 500;
 
 function manage(obj, selector) {
     var status = false;
@@ -37,7 +38,7 @@ function manage(obj, selector) {
     obj.value = obj.value.replace(/[;]+/i, '');
 
     if (selector == "name") {
-        status = validator.name(obj.value, global_length_min, global_length_max);
+        status = validator.name(obj.value, global_length_min, name_length_max);
     } else if (selector == "email") {
         status = validator.email(obj.value)
     } else if (selector == "message") {
