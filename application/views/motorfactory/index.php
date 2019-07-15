@@ -219,6 +219,15 @@
                 <div class="col-md-7 text-center">
                     <p>This is done by inputting the part numer.</p>
                     <img src="./application/assets/img/motorfactory-screenshots/partnumber.png" class="img-fluid" alt="Part Number">
+
+                    <hr>
+                    <h6>Videos</h6>
+
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#partNumberLookup">
+                        Search by part number
+                    </button>
+
                 </div>
             </div>
         </section>
@@ -251,6 +260,7 @@
             </div>
         </div>
 
+
         <!-- Modal Order Product -->
         <div class="modal fade" id="orderProduct" tabindex="-1" role="dialog" aria-labelledby="orderProduct"
              aria-hidden="true">
@@ -278,6 +288,32 @@
             </div>
         </div>
 
+        <!-- Part number  -->
+        <div class="modal fade" id="partNumberLookup" tabindex="-1" role="dialog" aria-labelledby="partNumberLookup"
+             aria-hidden="true">
+
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="partNumberLookupLabel">Part number</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <video controls>
+                                <source src="./application/assets/olive/renders/part-number.webm" type="video/webm">
+                                Your browser does not support videos.
+                            </video>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <script>
         $(document).ready(function() {
