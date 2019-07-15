@@ -20,33 +20,40 @@ class MotorFactory
             new ContactForm($_POST);
         }
         else{
-            $GLOBALS["NOTIFIER"].add($this->errors);
+            $GLOBALS["NOTIFIER"]->clear();
+            $GLOBALS["NOTIFIER"]->add_all($this->errors);
         }
-
-        Header("Location:  MotorFactory");
+        
+        Header("Location: ../MotorFactory");
+        exit;
     }
 
     private function validate(): bool{
         $errors = array();
 
         // Clear data
-        foreach ($this->data as $key => $value) {
-            $this->data[$key] = self::test_input($value);
+        if (isset($this->data["name"]) && isset($this->data["email"]) && isset($this->data["message"])){
+            foreach ($this->data as $key => $value) {
+                $this->data[$key] = self::test_input($value);
+            }
+    
+            // Name
+            if (!(strlen($this->data['name']) < 255 && ctype_alnum(str_replace(' ', '',$this->data['name'])))) {
+                array_push($this->errors, "The name have to be less than 255 characters long and it must be an alphanumeric string");
+            }
+    
+            // Email
+            if (!(strlen($this->data['email']) < 255 && filter_var($this->data['email'], FILTER_VALIDATE_EMAIL))){
+                array_push($this->errors,"The email have to be less than 255 characters long and it must be a valid email address");
+            }
+    
+            // Message
+            if (!(strlen($this->data['message']) < 500 && ctype_print($this->data['message']))) {
+                array_push($this->errors,"The message have to be less than 255 characters long and it must containt only printable characters.");
+            }
         }
-
-        // Name
-        if (!(strlen($this->data['name']) < 255 && ctype_alnum(str_replace(' ', '',$this->data['name'])))) {
-            array_push($this->errors, "The name have to be less than 255 characters long and it must be an alphanumeric string");
-        }
-
-        // Email
-        if (!(strlen($this->data['email']) < 255 && filter_var($this->data['email'], FILTER_VALIDATE_EMAIL))){
-            array_push($this->errors,"The email have to be less than 255 characters long and it must be a valid email address");
-        }
-
-        // Message
-        if (!(strlen($this->data['message']) < 500 && ctype_print($this->data['message']))) {
-            array_push($this->errors,"The message have to be less than 255 characters long and it must containt only printable characters.");
+        else{
+            array_push($this->errors,"Missing values");
         }
         
         return count($errors) == 0;

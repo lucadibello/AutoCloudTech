@@ -4,28 +4,41 @@ class Notifier{
 
     function __construct()
     {   
-        // Create session variable
-        $_SESSION["notifier"] = array();
+        // Start session if it's not active
+        if(session_status() != PHP_SESSION_ACTIVE){
+            session_start();
+        }
+
+        // Create session variable if not exists
+        if(!(isset($_SESSION["notifier"]))){
+            $_SESSION["notifier"] = array();
+        }
     }
 
-    function add($text){
+    public function add(String $text){
         // Add element at the end of the array
         array_push($_SESSION["notifier"], $text);
     }
 
-    function remove(int $index){
+    public function add_all(array $array){
+        foreach($array as $data){
+            self::add($data);
+        }
+    }
+
+    public function remove(int $index){
         // Remove element and re-index values
         unset($_SESSION["notifier"][$index]);
         $_SESSION["notifier"] = array_values($_SESSION["notifier"]);
     }
 
-    function clear(){
+    public function clear(){
         // Secure clear
         unset($_SESSION["notifier"]);
         $_SESSION["notifier"] = array();
     }
 
-    function getNotifications(): array{
+    public function getNotifications(): array{
         return $_SESSION["notifier"];
     }
 }

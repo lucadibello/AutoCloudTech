@@ -17,6 +17,3 @@ $GLOBALS["NOTIFIER"] = new Notifier();
 
 // faccio partire l'applicazione
 $app = new Application();
-
-// apro una sessione
-session_start();
