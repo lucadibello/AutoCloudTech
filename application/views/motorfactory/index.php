@@ -156,7 +156,6 @@
                         <div class="col-md-4 m-2">
                             <p class="font-weight-bold">User Level Access Control</p>
                         </div>
-
                     </div>
                     <div class="row">
                         <div class="col-md-4 m-2">
@@ -232,10 +231,43 @@
             </div>
         </section>
 
+        <section class="margin-y mb-5">
+            <div class="row">
+                <div class="col-md-7 offset-md-3 text-center">
+                    <!-- Default form contact -->
+                    <form class="text-center border border-light p-5" action="#!">
+
+                        <p class="h4 mb-4">Contact us</p>
+
+                        <!-- Name -->
+                        <input type="text" id="name" class="form-control mb-4" placeholder="Name">
+
+                        <!-- Email -->
+                        <input type="email" id="email" class="form-control mb-4" placeholder="E-mail">
+
+                        <!-- Message -->
+                        <div class="form-group">
+                            <textarea class="form-control rounded-0" id="message" rows="3" placeholder="Message"></textarea>
+                        </div>
+
+                        <!-- Copy -->
+                        <div class="custom-control custom-checkbox mb-4">
+                            <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy">
+                            <label class="custom-control-label" for="defaultContactFormCopy">Send me a copy of this message</label>
+                        </div>
+
+                        <!-- Send button -->
+                        <button class="btn btn-info btn-block" type="submit">Send</button>
+
+                    </form>
+                    <!-- Default form contact -->
+                </div>
+            </div>
+        </section>
+
 
         <!-- Modal Reg Lookup -->
-        <div class="modal fade" id="regNumberLookup" tabindex="-1" role="dialog" aria-labelledby="regNumberLookup"
-             aria-hidden="true">
+        <div class="modal fade" id="regNumberLookup" tabindex="-1" role="dialog" aria-labelledby="regNumberLookup" aria-hidden="true">
 
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
@@ -262,8 +294,7 @@
 
 
         <!-- Modal Order Product -->
-        <div class="modal fade" id="orderProduct" tabindex="-1" role="dialog" aria-labelledby="orderProduct"
-             aria-hidden="true">
+        <div class="modal fade" id="orderProduct" tabindex="-1" role="dialog" aria-labelledby="orderProduct" aria-hidden="true">
 
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
@@ -323,6 +354,11 @@
             });
 
         });
+    </script>
+    <script src="./application/assets/js/validator.js"></script>
+    <script src="./application/assets/js/register.js"></script>
+    <script>
+        addListeners();
     </script>
 </body>
 
