@@ -17,7 +17,8 @@ class MotorFactory
         if($_SERVER["REQUEST_METHOD"] == "POST" && self::validate($_POST)){
             // Loads model
             require_once("./application/models/contactForm.php");
-            new ContactForm($_POST);
+            $mailer = new ContactForm($_POST);
+            $mailer->sendMail();
         }
         else{
             $GLOBALS["NOTIFIER"]->clear();
