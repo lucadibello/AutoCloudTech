@@ -23,38 +23,7 @@ function addListeners() {
     $("#email").keyup(function() {
         manage(this, "email");
     });
-    console.log("add listeners successfully");
 }
-
-/*function checkAnyError() {
-    var changed = false;
-
-    if (manage(document.getElementById('name'), "name") == false) {
-        var toastHTML = '<span style="color:red;font-weight:bold;">Errore: </span><span> Campo nome</span>';
-        M.toast({
-            html: toastHTML
-        });
-        changed = true;
-    }
-    if (manage(document.getElementById('message'), "message") == false) {
-        var toastHTML = '<span style="color:red;font-weight:bold;">Errore: </span><span> Campo cognome</span>';
-        M.toast({
-            html: toastHTML
-        });
-        changed = true;
-    }
-    if (manage(document.getElementById('email'), "email") == false) {
-        var toastHTML = '<span style="color:red;font-weight:bold;">Errore: </span><span> Campo Email</span>';
-        M.toast({
-            html: toastHTML
-        });
-        changed = true;
-    }
-
-    if (changed) return false;
-
-    return true;
-}*/
 
 //PARAMS
 const global_length_min = 0;
