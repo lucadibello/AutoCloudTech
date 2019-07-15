@@ -1,4 +1,5 @@
 <?php
+
 class Application
 {
     private $url_controller = null;

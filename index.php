@@ -9,5 +9,14 @@ require 'application/libs/application.php';
 // carico la classe che permette di caricare le view
 require 'application/libs/viewloader.php';
 
+// carico la classe che permette di mostrare le notifiche a schermo
+require 'application/libs/notifier.php';
+
+// faccio partire il notifier
+$GLOBALS["NOTIFIER"] = new Notifier();
+
 // faccio partire l'applicazione
 $app = new Application();
+
+// apro una sessione
+session_start();
