@@ -225,6 +225,11 @@
                     <!-- Button trigger modal -->
                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#partNumberLookup">
                         Search by part number
+                    </button>¨
+
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#orderProduct">
+                        Order component
                     </button>
                 </div>
             </div>
