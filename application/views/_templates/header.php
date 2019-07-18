@@ -36,10 +36,10 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="./MotorFactory">Motor Factory Software System</a>
+                    <a class="nav-link text-white" href="./MotorFactor">Motor Factory Software System</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Garage Software System</a>
+                    <a class="nav-link text-white" href="./Garage">Garage Software System</a>
                 </li>
             </ul>
         </div>
