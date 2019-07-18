@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Motor Factory Software System</title>
+    <title>Motor Factor Software System</title>
 </head>
 
 <body>
@@ -15,7 +15,7 @@
             <div class="container flex-center text-center">
                 <div class="row mt-5">
                     <div class="col-md-12 mb-3 animated slideInDown">
-                        <h1 class="title h1 my-3 font-weight-bold"><span class="red-text">Motor Factory Software System</span></h1>
+                        <h1 class="title h1 my-3 font-weight-bold"><span class="red-text">Motor Factor Software System</span></h1>
                     </div>
                 </div>
             </div>
