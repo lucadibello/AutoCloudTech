@@ -1,5 +1,5 @@
 <?php
-class MotorFactory
+class MotorFactor
 {
 
     private $errors = array();
@@ -8,7 +8,7 @@ class MotorFactory
     {
         //Show index page
         ViewLoader::load("_templates/header");
-        ViewLoader::load("motorfactory/index");
+        ViewLoader::load("motorfactor/index");
         ViewLoader::load("_templates/contact-form");
         ViewLoader::load("_templates/footer");
     }
@@ -25,7 +25,7 @@ class MotorFactory
             $GLOBALS["NOTIFIER"]->add_all($this->errors);
         }
         
-        Header("Location: ../MotorFactory");
+        Header("Location: ../MotorFactor");
         exit;
     }
 
