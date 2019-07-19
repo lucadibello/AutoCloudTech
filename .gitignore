@@ -3,3 +3,4 @@
 .vs
 .htaccess
 application/config/config.php
+/vendor/

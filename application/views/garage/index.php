@@ -144,5 +144,24 @@
             </div>
         </section>
 
+<<<<<<< HEAD
+=======
+        <section class="margin-y" id="invoicing--section">
+            <div class="row">
+                <div class="col-md-3 text-right title">
+                    <h5>Invoicing & Margin reports</h5>
+                </div>
+                <div class="col-md-7 text-center">
+                    <p>
+                        Our garage software includes jobsheets, estimates and sales invoices. Our flexible approach enables you to create documents using menu priced jobs and invoices. Invoices can be easily split into insurance/excess Invoices.
+                    </p>
+
+                    <!--
+                    <img src="./application/assets/img/motorfactory-screenshots/.png" class="img-fluid" alt="Booking">
+                    -->
+                </div>
+            </div>
+        </section>
+>>>>>>> 4e542430f1db4fd022ad0b8d0d65a0beaeb7ef0a
     </div>
 </body>

@@ -12,6 +12,9 @@ require 'application/libs/viewloader.php';
 // carico la classe che permette di mostrare le notifiche a schermo
 require 'application/libs/notifier.php';
 
+// carico le liberie di composer
+require 'vendor/autoload.php';
+
 // faccio partire il notifier
 $GLOBALS["NOTIFIER"] = new Notifier();
 
