@@ -41,12 +41,50 @@
                     <h5>Booking</h5>
                 </div>
                 <div class="col-md-7 text-center">
-                    <p>The Service Booking Diary is a visual aid that allows you to see at a quick glance, which days have space available for further bookings. As service jobs are booked into the calendar, the hours for that day go down and the colour changes. <br><br>
-The diary also allows you to see which Courtesy Cars are available, free MOT slots and which technicians are working on which jobs.</p>
+                    <p>
+                    The Service Booking Diary is a visual aid that allows you to see at a quick glance, which days have space available for further bookings.
+                    As service jobs are booked into the calendar, the hours for that day go down and the colour changes. <br><br>
+                    The diary also allows you to see which Courtesy Cars are available, free MOT slots and which technicians are working on which jobs.</p>
                     <img src="./application/assets/img/motorfactory-screenshots/booking.png" class="img-fluid" alt="Booking">
-
                 </div>
             </div>
         </section>
+
+        <section class="margin-y" id="accounting-section">
+            <div class="row">
+                <div class="col-md-3 text-right title">
+                    <h5>Accounting & Finance</h5>
+                </div>
+                <div class="col-md-7 text-center">
+                    <div class="row">
+                        <div class="col-md-4 m-2">
+                            <p class="font-weight-bold">Trial Balance</p>
+                        </div>
+                        <div class="col-md-4 m-2">
+                            <p class="font-weight-bold">Invoices</p>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 m-2">
+                            <p class="font-weight-bold">Expenses</p>
+                        </div>
+                        <div class="col-md-4 m-2">
+                            <p class="font-weight-bold">User Level Access Control</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 m-2">
+                            <p class="font-weight-bold">VAT</p>
+                        </div>
+                        <div class="col-md-4 m-2">
+                            <p class="font-weight-bold">Integrate Other Accounting Packeges</p>
+                        </div>
+                    </div>
+                    <img src="./application/assets/img/motorfactory-screenshots/accounting.png" class="img-fluid" alt="Accounting">
+                </div>
+            </div>
+        </section>
+        
     </div>
 </body>
