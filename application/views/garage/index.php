@@ -34,5 +34,19 @@
                 </div>
             </div>
         </section>
+
+        <section class="margin-y" id="booking-section">
+            <div class="row">
+                <div class="col-md-3 text-right title">
+                    <h5>Booking</h5>
+                </div>
+                <div class="col-md-7 text-center">
+                    <p>The Service Booking Diary is a visual aid that allows you to see at a quick glance, which days have space available for further bookings. As service jobs are booked into the calendar, the hours for that day go down and the colour changes. <br><br>
+The diary also allows you to see which Courtesy Cars are available, free MOT slots and which technicians are working on which jobs.</p>
+                    <img src="./application/assets/img/motorfactory-screenshots/booking.png" class="img-fluid" alt="Booking">
+
+                </div>
+            </div>
+        </section>
     </div>
 </body>
