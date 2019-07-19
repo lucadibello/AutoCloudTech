@@ -25,18 +25,6 @@
         <section class="margin-y">
             <div class="row">
                 <div class="col-md-3 text-right title">
-                    <h5>Title</h5>
-                </div>
-                <div class="col-md-7 text-center">
-                    <p>aaaaaaaaaa aaaaaaaaaa aaaaaaaaaaaa aaaaaaaaaaaa</p>
-                    <img src="./application/assets/img/motorfactory-screenshots/reglookup.png" class="img-fluid" alt="Reg Look Up">
-
-                </div>
-            </div>
-        </section>
-        <section class="margin-y">
-            <div class="row">
-                <div class="col-md-3 text-right title">
                     <h5>Tech RMI Repair Maintenance Information</h5>
                 </div>
                 <div class="col-md-7 text-center">
