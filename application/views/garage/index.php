@@ -144,8 +144,6 @@
             </div>
         </section>
 
-<<<<<<< HEAD
-=======
         <section class="margin-y" id="invoicing--section">
             <div class="row">
                 <div class="col-md-3 text-right title">
@@ -162,6 +160,5 @@
                 </div>
             </div>
         </section>
->>>>>>> 4e542430f1db4fd022ad0b8d0d65a0beaeb7ef0a
     </div>
 </body>
