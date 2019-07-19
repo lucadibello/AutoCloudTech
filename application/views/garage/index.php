@@ -21,5 +21,18 @@
             </div>
         </div>
     </div>
-    
+    <div class="container">
+        <section class="margin-y" id="reglookup-section">
+            <div class="row">
+                <div class="col-md-3 text-right title">
+                    <h5>Title</h5>
+                </div>
+                <div class="col-md-7 text-center">
+                    <p>aaaaaaaaaa aaaaaaaaaa aaaaaaaaaaaa aaaaaaaaaaaa</p>
+                    <img src="./application/assets/img/motorfactory-screenshots/reglookup.png" class="img-fluid" alt="Reg Look Up">
+
+                </div>
+            </div>
+        </section>
+    </div>
 </body>
