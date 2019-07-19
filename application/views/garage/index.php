@@ -22,7 +22,7 @@
         </div>
     </div>
     <div class="container">
-        <section class="margin-y" id="reglookup-section">
+        <section class="margin-y">
             <div class="row">
                 <div class="col-md-3 text-right title">
                     <h5>Title</h5>
@@ -31,6 +31,43 @@
                     <p>aaaaaaaaaa aaaaaaaaaa aaaaaaaaaaaa aaaaaaaaaaaa</p>
                     <img src="./application/assets/img/motorfactory-screenshots/reglookup.png" class="img-fluid" alt="Reg Look Up">
 
+                </div>
+            </div>
+        </section>
+        <section class="margin-y">
+            <div class="row">
+                <div class="col-md-3 text-right title">
+                    <h5>Tech RMI Repair Maintenance Information</h5>
+                </div>
+                <div class="col-md-7 text-center">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <i class="fas fa-search"></i>
+                            <p class="font-weight-bold">Graphic selection of parts</p>
+                        </div>
+                        <div class="col-md-4">
+                            <i class="fas fa-hand-pointer"></i>
+                            <p class="font-weight-bold">Search and selection option for due inspections with ServiceFinder</p>
+                        </div>
+                        <div class="col-md-4">
+                        <i class="fas fa-car"></i>
+                            <p class="font-weight-bold">Vehicle identification via VIN, national codes such as KBA, or conventionally via manufacturer – model – type</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <i class="fas fa-search"></i>
+                            <p class="font-weight-bold">Graphic selection of parts</p>
+                        </div>
+                        <div class="col-md-4">
+                            <i class="fas fa-hand-pointer"></i>
+                            <p class="font-weight-bold">Search and selection option for due inspections with ServiceFinder</p>
+                        </div>
+                        <div class="col-md-4">
+                        <i class="fas fa-car"></i>
+                            <p class="font-weight-bold">Vehicle identification via VIN, national codes such as KBA, or conventionally via manufacturer – model – type</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
