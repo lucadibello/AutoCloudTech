@@ -40,32 +40,35 @@
                     <h5>Tech RMI Repair Maintenance Information</h5>
                 </div>
                 <div class="col-md-7 text-center">
+                    <section class="mb-5">
+                        <h6 class="font-weight-bold">Manufacturer-compliant repair and maintenance data for vehicle workshops, parts dealers and fleet/leasing companies</h6>
+                    </section>
                     <div class="row">
                         <div class="col-md-4">
                             <i class="fas fa-search"></i>
-                            <p class="font-weight-bold">Graphic selection of parts</p>
+                            <p>Graphic selection of parts</p>
                         </div>
                         <div class="col-md-4">
                             <i class="fas fa-hand-pointer"></i>
-                            <p class="font-weight-bold">Search and selection option for due inspections with ServiceFinder</p>
+                            <p>Search and selection option for due inspections with ServiceFinder</p>
                         </div>
                         <div class="col-md-4">
-                        <i class="fas fa-car"></i>
-                            <p class="font-weight-bold">Vehicle identification via VIN, national codes such as KBA, or conventionally via manufacturer – model – type</p>
+                            <i class="fas fa-car"></i>
+                            <p>Vehicle identification via VIN, national codes such as KBA, or conventionally via manufacturer – model – type</p>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-4">
-                            <i class="fas fa-search"></i>
-                            <p class="font-weight-bold">Graphic selection of parts</p>
+                            <i class="fas fa-warehouse"></i>
+                            <p>Manufacturer-compliant standard labour times with integrated overlap calculations</p>
                         </div>
                         <div class="col-md-4">
-                            <i class="fas fa-hand-pointer"></i>
-                            <p class="font-weight-bold">Search and selection option for due inspections with ServiceFinder</p>
+                            <i class="fas fa-book"></i>
+                            <p>Turnkey interfaces for integration into spare parts catalogues</p>
                         </div>
                         <div class="col-md-4">
-                        <i class="fas fa-car"></i>
-                            <p class="font-weight-bold">Vehicle identification via VIN, national codes such as KBA, or conventionally via manufacturer – model – type</p>
+                            <i class="fas fa-tools"></i>
+                            <p>Display of the special tools required, including OE number, in the repair instructions</p>
                         </div>
                     </div>
                 </div>
