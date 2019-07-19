@@ -139,6 +139,13 @@
                             <p class="font-weight-bold">Integrate Other Accounting Packeges</p>
                         </div>
                     </div>
+                    <section class="mb-5 mt-5">
+                        <h5>Invoicing & Margin reports</h5>
+                        <p>
+                            Our garage software includes jobsheets, estimates and sales invoices. Our flexible approach enables you to create documents using menu priced jobs and invoices. Invoices can be easily split into insurance/excess Invoices.
+                        </p>
+                    </section>
+
                     <img src="./application/assets/img/motorfactory-screenshots/accounting.png" class="img-fluid" alt="Accounting">
                 </div>
             </div>
