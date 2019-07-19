@@ -31,6 +31,9 @@
                     <section class="mb-5">
                         <h6 class="font-weight-bold">Manufacturer-compliant repair and maintenance data for vehicle workshops, parts dealers and fleet/leasing companies</h6>
                     </section>
+                    <section class="mb-4">
+                        <h5>Features</h5>
+                    </section>
                     <div class="row">
                         <div class="col-md-4">
                             <i class="fas fa-search"></i>
@@ -59,6 +62,33 @@
                             <p>Display of the special tools required, including OE number, in the repair instructions</p>
                         </div>
                     </div>
+                    <section class="mb-4 mt-5">
+                        <h5>Key Facts</h5>
+                    </section>
+                    <div class="row">
+                        <div class="col-md-4 offset-md-2">
+                            <i class="fas fa-book-open"></i>
+                            <p>3.9 million repair instructions</p>
+                        </div>
+                        <div class="col-md-4">
+                            <i class="fas fa-wrench"></i>
+                            <p>4.2 million service plans with 22.8 million standard labour times</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <i class="fas fa-language"></i>
+                            <p>24 languages</p>
+                        </div>
+                        <div class="col-md-4">
+                            <i class="fas fa-globe-americas"></i>
+                            <p>Europe-wide vehicle information</p>
+                        </div>
+                        <div class="col-md-4">
+                            <i class="fas fa-database"></i>
+                            <p>7.7 million items of technical data</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -70,9 +100,9 @@
                 </div>
                 <div class="col-md-7 text-center">
                     <p>
-                    The Service Booking Diary is a visual aid that allows you to see at a quick glance, which days have space available for further bookings.
-                    As service jobs are booked into the calendar, the hours for that day go down and the colour changes. <br><br>
-                    The diary also allows you to see which Courtesy Cars are available, free MOT slots and which technicians are working on which jobs.</p>
+                        The Service Booking Diary is a visual aid that allows you to see at a quick glance, which days have space available for further bookings.
+                        As service jobs are booked into the calendar, the hours for that day go down and the colour changes. <br><br>
+                        The diary also allows you to see which Courtesy Cars are available, free MOT slots and which technicians are working on which jobs.</p>
                     <img src="./application/assets/img/motorfactory-screenshots/booking.png" class="img-fluid" alt="Booking">
                 </div>
             </div>
@@ -113,6 +143,6 @@
                 </div>
             </div>
         </section>
-        
+
     </div>
 </body>
