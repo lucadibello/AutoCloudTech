@@ -10,7 +10,7 @@
 
 <body>
     <div class="view jarallax" style="height: 60vh;">
-        <img class="jarallax-img" src="https://images.unsplash.com/photo-1561404679-3657b0ad8dac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="">
+        <img class="jarallax-img" src="./application/assets/img/parallax/motorfactor-parallax.jpg" alt="">
         <div class="mask rgba-blue-slight">
             <div class="container flex-center text-center">
                 <div class="row mt-5">
