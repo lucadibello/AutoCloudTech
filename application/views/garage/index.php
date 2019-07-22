@@ -141,9 +141,6 @@
                     </div>
                     <section class="mb-5 mt-5">
                         <h5>Invoicing & Margin reports</h5>
-                        <p>
-                            Our garage software includes jobsheets, estimates and sales invoices. Our flexible approach enables you to create documents using menu priced jobs and invoices. Invoices can be easily split into insurance/excess Invoices.
-                        </p>
                     </section>
 
                     <img src="./application/assets/img/motorfactory-screenshots/accounting.png" class="img-fluid" alt="Accounting">
@@ -151,7 +148,7 @@
             </div>
         </section>
 
-        <section class="margin-y" id="invoicing--section">
+        <section class="margin-y" id="invoicing-section">
             <div class="row">
                 <div class="col-md-3 text-right title">
                     <h5>Invoicing & Margin reports</h5>
@@ -164,6 +161,23 @@
                     <!--
                     <img src="./application/assets/img/motorfactory-screenshots/.png" class="img-fluid" alt="Booking">
                     -->
+                </div>
+            </div>
+        </section>
+        <section class="margin-y">
+            <div class="row">
+                <div class="col-md-3 text-right title">
+                    <h5>Powered by</h5>
+                </div>
+                <div class="col-md-7 text-center">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <a href="https://www.ecomm365.com/" target="_blank"><img src="./application/assets/img/ecomm-logo.png" class="img-fluid"></a>
+                        </div>
+                        <div class="col-md-5">
+                                <a href="https://www.tecalliance.net/en/" target="_blank"><img src="./application/assets/img/tecalliance_logo.png" class="img-fluid"></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
