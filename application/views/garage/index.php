@@ -15,7 +15,7 @@
             <div class="container flex-center text-center">
                 <div class="row mt-5">
                     <div class="col-md-12 mb-3 animated slideInDown">
-                        <h1 class="title h1 my-3 font-weight-bold"><span class="red-text">Motor Factor Software System</span></h1>
+                        <h1 class="title h1 my-3 font-weight-bold"><span class="red-text">Garage Software System</span></h1>
                     </div>
                 </div>
             </div>
@@ -199,5 +199,57 @@
                 </div>
             </div>
         </section>
+
+        <!-- Modal Order Product -->
+        <div class="modal fade" id="orderProduct" tabindex="-1" role="dialog" aria-labelledby="orderProduct" aria-hidden="true">
+
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="orderProductLabel">Order component</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <video controls>
+                                <source src="./application/assets/olive/renders/buy-component.webm" type="video/webm">
+                                Your browser does not support videos.
+                            </video>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Part number  -->
+        <div class="modal fade" id="partNumberLookup" tabindex="-1" role="dialog" aria-labelledby="partNumberLookup"
+             aria-hidden="true">
+
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="partNumberLookupLabel">Part number</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <video controls>
+                                <source src="./application/assets/olive/renders/part-number.webm" type="video/webm">
+                                Your browser does not support videos.
+                            </video>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
