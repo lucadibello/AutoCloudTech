@@ -15,7 +15,7 @@
             <div class="container flex-center text-center">
                 <div class="row mt-5">
                     <div class="col-md-12 mb-3 animated slideInDown">
-                        <h1 class="title h1 my-3 font-weight-bold"><span class="red-text">Motor Factor Software System</span></h1>
+                        <h1 class="title h1 my-3 font-weight-bold"><span class="red-text">Garage Software System</span></h1>
                     </div>
                 </div>
             </div>
@@ -25,7 +25,7 @@
         <section class="margin-y">
             <div class="row">
                 <div class="col-md-3 text-right title">
-                    <h5>Tech RMI Repair Maintenance Information</h5>
+                    <h5 class="font-weight-bold">Tech RMI <h5>(Repair Maintenance Information)</h5>
                 </div>
                 <div class="col-md-7 text-center">
                     <section class="mb-5">
@@ -89,6 +89,45 @@
                             <p>7.7 million items of technical data</p>
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="margin-y" id="tecdoc-section">
+            <div class="row">
+                <div class="col-md-3 text-right title">
+                    <h5>Search by vehicle make</h5>
+                </div>
+                <div class="col-md-7 text-center">
+                    <p>This is done by entering your Irish/UK Registration Plate. <br>
+                        Once you've entered your registration plate, you will be able to view the car details.
+                    </p>
+                    <img src="./application/assets/img/motorfactory-screenshots/carmake.png" class="img-fluid" alt="Car Make">
+                </div>
+            </div>
+        </section>
+
+        <section class="margin-y mb-5" id="partnumber-section">
+            <div class="row">
+                <div class="col-md-3 text-right title">
+                    <h5>Search by part number</h5>
+                </div>
+                <div class="col-md-7 text-center">
+                    <p>This is done by inputting the part numer.</p>
+                    <img src="./application/assets/img/motorfactory-screenshots/partnumber.png" class="img-fluid" alt="Part Number">
+
+                    <hr>
+                    <h6>Videos</h6>
+
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#partNumberLookup">
+                        Search by part number
+                    </button>
+
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#orderProduct">
+                        Order component
+                    </button>
                 </div>
             </div>
         </section>
@@ -160,5 +199,57 @@
                 </div>
             </div>
         </section>
+
+        <!-- Modal Order Product -->
+        <div class="modal fade" id="orderProduct" tabindex="-1" role="dialog" aria-labelledby="orderProduct" aria-hidden="true">
+
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="orderProductLabel">Order component</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <video controls>
+                                <source src="./application/assets/olive/renders/buy-component.webm" type="video/webm">
+                                Your browser does not support videos.
+                            </video>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Part number  -->
+        <div class="modal fade" id="partNumberLookup" tabindex="-1" role="dialog" aria-labelledby="partNumberLookup"
+             aria-hidden="true">
+
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="partNumberLookupLabel">Part number</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <video controls>
+                                <source src="./application/assets/olive/renders/part-number.webm" type="video/webm">
+                                Your browser does not support videos.
+                            </video>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>

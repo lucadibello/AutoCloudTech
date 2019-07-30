@@ -43,7 +43,7 @@
                         <h2 class="h1 font-weight-bold title-blue-text my-5 py-4">MotorFactor</h2>
 
                         <div class="text-center title-blue-text">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sapien augue, dictum et gravida et, viverra et est.</p>
+                            <p>Software for motor factors. <br>Contains reg look up, stock control, search by vehicle make and much more.</p>
                             <a class="btn btn-blue btn-lg" href="./MotorFactory">More informations</a>
                         </div>
                     </div>
@@ -52,7 +52,7 @@
                         <h2 class="h1 font-weight-bold title-red-text my-5 py-4">Garage & Tyre Centre</h2>
 
                         <div class="text-center title-red-text">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sapien augue, dictum et gravida et, viverra et est.</p>
+                            <p>Software for garages. <br>Contains Tech RMI, Booking, Accounting, margin reports and much more.</p>
                             <a class="btn btn-blue btn-lg" href="./Home">More informations</a>
                         </div>
                     </div>

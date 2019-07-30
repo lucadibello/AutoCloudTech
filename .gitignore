@@ -4,3 +4,4 @@
 .htaccess
 application/config/config.php
 /vendor/
+.tmp.drivedownload
