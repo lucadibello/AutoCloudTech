@@ -12,6 +12,7 @@ class ContactForm{
     public function sendMail(){
         $mail = new PHPMailer(true);
         
+        # TODO: CHANGE THIS PART, IT'S COPIED FROM THE MODULE'S GITHUB PAGE
         try {
             //Server settings
             $mail->SMTPDebug = 2;                                       // Enable verbose debug output
@@ -32,8 +33,8 @@ class ContactForm{
             $mail->addBCC('bcc@example.com');
         
             // Attachments
-            $mail->addAttachment('/var/tmp/file.tar.gz');         // Add attachments
-            $mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
+            // $mail->addAttachment('/var/tmp/file.tar.gz');         // Add attachments
+            // $mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
         
             // Content
             $mail->isHTML(true);                                  // Set email format to HTML
