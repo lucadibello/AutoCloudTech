@@ -93,6 +93,45 @@
             </div>
         </section>
 
+        <section class="margin-y" id="tecdoc-section">
+            <div class="row">
+                <div class="col-md-3 text-right title">
+                    <h5>Search by vehicle make</h5>
+                </div>
+                <div class="col-md-7 text-center">
+                    <p>This is done by entering your Irish/UK Registration Plate. <br>
+                        Once you've entered your registration plate, you will be able to view the car details.
+                    </p>
+                    <img src="./application/assets/img/motorfactory-screenshots/carmake.png" class="img-fluid" alt="Car Make">
+                </div>
+            </div>
+        </section>
+
+        <section class="margin-y mb-5" id="partnumber-section">
+            <div class="row">
+                <div class="col-md-3 text-right title">
+                    <h5>Search by part number</h5>
+                </div>
+                <div class="col-md-7 text-center">
+                    <p>This is done by inputting the part numer.</p>
+                    <img src="./application/assets/img/motorfactory-screenshots/partnumber.png" class="img-fluid" alt="Part Number">
+
+                    <hr>
+                    <h6>Videos</h6>
+
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#partNumberLookup">
+                        Search by part number
+                    </button>
+
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#orderProduct">
+                        Order component
+                    </button>
+                </div>
+            </div>
+        </section>
+
         <section class="margin-y" id="booking-section">
             <div class="row">
                 <div class="col-md-3 text-right title">
