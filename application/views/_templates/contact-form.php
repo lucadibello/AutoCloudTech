@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col-md-7 offset-md-3 text-center">
             <!-- Default form contact -->
-            <form class="text-center border border-light p-5" method="post" action="MotorFactory/contact">
+            <form class="text-center border border-light p-5" method="post" action="/contact">
 
                 <p class="h4 mb-4">Contact us</p>
 
