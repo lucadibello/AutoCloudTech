@@ -6,7 +6,7 @@
     <!-- Main layout -->
     <main>
         <div class="view jarallax" style="height: 100vh;">
-            <img class="jarallax-img" src="https://images.unsplash.com/photo-1465440567949-6062e3a8459f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="">
+            <img class="jarallax-img" src="./application/assets/img/parallax/home-parallax.jpg" alt="">
             <div class="mask rgba-blue-slight">
                 <div class="container flex-center text-center">
                     <div class="row mt-5">
@@ -130,19 +130,6 @@
                 <!--Grid column-->
             </div>
             <!--Grid row-->
-
-
-            <div class="jumbotron card card-image" style="background-image: url(https://mdbootstrap.com/img/Photos/Others/gradient1.jpg);">
-                <div class="text-white text-center py-5 px-4">
-                    <div>
-                        <h2 class="card-title h1-responsive pt-3 mb-5 font-bold"><strong>Create your beautiful website with MDBootstrap</strong></h2>
-                        <p class="mx-5 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam, voluptatem,
-                            optio vero odio nam sit officia accusamus minus error nisi architecto nulla ipsum dignissimos. Odit sed qui, dolorum!
-                        </p>
-                        <a class="btn btn-outline-white btn-md"><i class="fas fa-clone left"></i> View project</a>
-                    </div>
-                </div>
-            </div>
         </div>
 
         <!-- Swiper -->

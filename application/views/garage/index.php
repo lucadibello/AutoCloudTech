@@ -25,7 +25,7 @@
         <section class="margin-y">
             <div class="row">
                 <div class="col-md-3 text-right title">
-                    <h5>Tech RMI Repair Maintenance Information</h5>
+                    <h5 class="font-weight-bold">Tech RMI</h5><h5> (Repair Maintenance Information)</h5>
                 </div>
                 <div class="col-md-7 text-center">
                     <section class="mb-5">
