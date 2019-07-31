@@ -46,7 +46,7 @@
                 <div class="col d-table">
                     <div class="al-404 text-center d-table-cell align-middle animated slideInDown">
                         <h2 class="font-weight-bold mb-4">oops!</h2>
-                        <p>the page you are looking for doesn't exist, please go back to our homepage.</p>
+                        <p>the page you are looking for doesn't exists, please go back to our homepage.</p>
                         <a class="btn btn-danger mt-4" href="home">Homepage</a>
                     </div>
                 </div>
