@@ -18,9 +18,5 @@ require 'vendor/autoload.php';
 // faccio partire il notifier
 $GLOBALS["NOTIFIER"] = new Notifier();
 
-// imposto l'email aziendale
-$GLOBALS["NOTIFIER"] = new Notifier();
-
-
 // faccio partire l'applicazione
 $app = new Application();
